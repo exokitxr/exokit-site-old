@@ -1,6 +1,13 @@
 # Web Mixed Reality ExoKit Web App
 
-# Features: 
+## How to deploy
+
+```
+npm install
+npm run deploy
+```
+
+## Features:
 - Installation Button for Exokit Browser
 - Documentation linkage
 - Github linkage
