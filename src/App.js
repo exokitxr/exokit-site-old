@@ -39,6 +39,7 @@ class App extends Component {
             <li>
               <img className='screenshot'/>
               <div className='app-name'>My amazing app</div>
+                <p>TESTING CHRIS DEV ENVIRONMENT</p>
             </li>
           </ul>
         </div>
