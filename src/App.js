@@ -12,7 +12,8 @@ class App extends Component {
         <TopNavbar/>
 
         <Jumbotron>
-          <h1>Hello Exokit!</h1>
+          <h1>Exokit</h1>
+            <h5>The fastest and most portable VR/AR toolbox for developers.</h5>
           {/* hero video */}
         </Jumbotron>
           <AppGrid/>
