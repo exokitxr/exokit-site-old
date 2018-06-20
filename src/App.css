@@ -1,0 +1,28 @@
+/* EXOKIT COLOR PALLETE
+#CE2870 - pink
+#654373 - purple
+#02BC9F - light green
+#098D8B - dark green
+#FA7284 - peach pink
+ */
+.row{
+    width: 100%;
+}
+.col{
+    text-align: center;
+}
+.nav-link{
+    font-size: larger;
+}
+.nav-link:hover{
+    border-bottom: solid #654373;
+}
+a{
+    text-decoration: none;
+    color: #098D8B;
+}
+a:hover{
+    text-decoration: none;
+    color: #02BC9F;
+}
+
