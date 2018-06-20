@@ -1,8 +1,12 @@
 import React, { Component } from 'react';
 import '../css/appGrid.css';
+
 import portalImage from '../images/portals.png'
 import mushroomImage from '../images/mushrooms.png'
 import minecraftAvatarImage from '../images/minecraftAvatar.png'
+import girlAvatarImage from '../images/girlAvatar.png'
+import shapeBuilderImage from '../images/shapeBuilder.png'
+import zeoForestImage from '../images/zeoForest.png'
 
 
 class AppGrid extends Component {
@@ -24,13 +28,13 @@ class AppGrid extends Component {
                     </div>
                     <div className='row'>
                         <div className='col-lg-4 col-md-4 col-sm-12 col-sx-12 p-4'>
-                            <img src="http://umsu.ca/wp-content/uploads/2017/07/black-and-white-twitter-icon-transparent_2372885.png" alt="VR Guy" className="img-thumbnail"/>
+                            <img src={girlAvatarImage} alt="VR Guy" className="img-thumbnail"/>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-12 col-sx-12 p-4'>
-                            <img src="https://vignette.wikia.nocookie.net/truecapitalist/images/f/f7/Discord_logo1600.png/revision/latest?cb=20170221133121" alt="VR Guy" className="img-thumbnail"/>
+                            <img src={shapeBuilderImage} alt="VR Guy" className="img-thumbnail"/>
                         </div>
                         <div className='col-lg-4 col-md-4 col-sm-12 col-sx-12 p-4'>
-                            <img src="https://sguru.org/wp-content/uploads/2018/02/facebook-logo-jpg-facebook-logo-1.jpg" alt="VR Guy" className="img-thumbnail"/>
+                            <img src={zeoForestImage} alt="VR Guy" className="img-thumbnail"/>
                         </div>
                     </div>
                 </div>
