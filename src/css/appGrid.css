@@ -1,4 +1,4 @@
 .img-thumbnail{
-    height: 250px;
+    max-height: 300px;
     width: auto;
 }
