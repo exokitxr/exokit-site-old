@@ -10,6 +10,9 @@ html{
 }
 body{
     height: 100%;
+    text-align: center;
+    padding-right: 20%;
+    padding-left: 20%;
 }
 
 

@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {Jumbotron} from 'react-bootstrap';
 import './css/App.css';
 import TopNavbar from './components/navbar';
+import AppGrid from './components/appGrid';
 
 class App extends Component {
   render() {
@@ -14,6 +15,9 @@ class App extends Component {
           <h1>Hello Exokit!</h1>
           {/* hero video */}
         </Jumbotron>
+          <AppGrid/>
+
+
         <div className='features'>
           <div>WebXR on all devices, even not XR</div>
           <div>Reality tabs</div>
