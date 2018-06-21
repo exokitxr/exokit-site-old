@@ -11,7 +11,7 @@ import zeoForestImage from '../images/zeoForest.png'
 class AppGrid extends Component {
     render() {
         return (
-            <div className="App">
+            <div className="appGrid">
                 <h1 className="display-4">Reality Tabs</h1>
                 <div className='appGrid'>
                     <div className='row'>

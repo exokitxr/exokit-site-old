@@ -7,12 +7,12 @@
  */
 html{
     height: 100%;
+    margin: 0;
 }
 body{
     height: 100%;
+    margin: 0;
     text-align: center;
-    padding-right: 20%;
-    padding-left: 20%;
 }
 
 
