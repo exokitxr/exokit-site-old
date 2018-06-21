@@ -2,3 +2,14 @@
     max-height: 300px;
     width: auto;
 }
+.appCards{
+    margin: 0;
+    padding: 30px;
+    transition: all .2s ease-in-out;
+}
+.appCards:hover{
+    transform: scale(1.1);
+}
+.row{
+    margin: auto;
+}

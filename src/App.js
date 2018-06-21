@@ -8,17 +8,13 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-
         <TopNavbar/>
-
         <Jumbotron>
-          <h1>Exokit</h1>
-            <h5>The fastest and most portable VR/AR toolbox for developers.</h5>
-          {/* hero video */}
+            <h1 className="display-4">Exokit</h1>
+            <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
         </Jumbotron>
           <AppGrid/>
-
-
+          <br/>
         <div className='features'>
           <div>WebXR on all devices, even not XR</div>
           <div>Reality tabs</div>
