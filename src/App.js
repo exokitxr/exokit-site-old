@@ -14,6 +14,7 @@ class App extends Component {
         <TopNavbar/>
         <TitlePage/>
         <DemoPage/>
+        <NewPage/>
         <Jumbotron>
           <h1 className="display-4">Exokit</h1>
           <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
