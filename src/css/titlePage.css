@@ -2,9 +2,11 @@
     height: 100vh;
     width: 100%;
     position: relative;
+    padding-top: 60px;
     background: #D3959B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    overflow: hidden;
 }
 body{
     color: black;

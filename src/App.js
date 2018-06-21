@@ -8,22 +8,20 @@ import DemoPage from "./components/demoPage";
 import NewPage from "./components/newPage";
 
 class App extends Component {
-    render() {
-        return (
-            <div className="App">
-                <TopNavbar/>
-                <TitlePage/>
-                <DemoPage/>
-                <NewPage/>
-                {/*<Jumbotron>*/}
-                    {/*<h1 className="display-4">Exokit</h1>*/}
-                    {/*<p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>*/}
-                {/*</Jumbotron>*/}
-                  {/*<AppGrid/>*/}
-                  {/*<br/>*/}
-            </div>
-        );
-    }
+  render() {
+    return (
+      <div className="App">
+        <TopNavbar/>
+        <TitlePage/>
+        <DemoPage/>
+        <Jumbotron>
+          <h1 className="display-4">Exokit</h1>
+          <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
+        </Jumbotron>
+        <AppGrid/>
+      </div>
+    );
+  }
 }
 
 export default App;
