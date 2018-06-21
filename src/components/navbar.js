@@ -5,7 +5,6 @@ import '../css/navbar.css';
 class TopNavbar extends Component {
     render() {
         return (
-            <div className="App">
                 <Navbar>
                     <div className='row nav justify-content-center' >
                         <div className='col'>
@@ -28,7 +27,6 @@ class TopNavbar extends Component {
                         </div>
                     </div>
                 </Navbar>
-            </div>
         );
     }
 }

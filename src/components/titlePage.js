@@ -7,9 +7,7 @@ class TitlePage extends Component {
     render() {
         return (
             <div className="titlePage">
-
                 <div className='titleText'>
-
                     <div className='row'>
                         <div className='col-12'>
                             <h1 className='display-4'>Exokit is a new, fast, post-screen era browser.</h1>
@@ -55,8 +53,8 @@ class TitlePage extends Component {
                             </a>
                         </div>
                     </div>
-
                 </div>
+                <i className="fas fa-angle-down fa-3x"/>
             </div>
         );
     }

@@ -19,3 +19,11 @@ a:hover{
     text-decoration: none;
     color: #02BC9F;
 }
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 40px;
+    z-index: 1;
+    background-color: white;
+}
