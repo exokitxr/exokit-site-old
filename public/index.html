@@ -77,11 +77,8 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-
-
 
   </head>
   <body>
@@ -99,5 +96,15 @@
       To begin the development, run `npm start` or `yarn start`.
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
+    <script>
+      window.addEventListener('scroll', () => {
+        const featuresPageEl = document.querySelector('.featuresPage');
+        if (window.document.body.parentNode.scrollTop >= window.innerHeight * 3) {
+          featuresPageEl.classList.add('scrolled');
+        } else {
+          featuresPageEl.classList.remove('scrolled');
+        }
+      });
+    </script>
   </body>
 </html>
