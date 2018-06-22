@@ -14,18 +14,47 @@ class NewPage extends Component {
       <div className='newsPage'>
         <h1 className='heading display-4'>News</h1>
         <div className='row'>
-          <div className='appGrid row d-flex'>
-            <div className='appCards row col-12 flex-grow-1'>
-              <div className='appCard col-2'>
-                <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
-              </div>
-              <div className='appCard col-2'>
-                <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
-              </div>
-              <div className='appCard col-2'>
-                <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
-              </div>
+          <div className='col-3'>
+            <div className="card">
+              <img className="card-img-top" src={portalImage} alt="Card image cap"/>
+              <div className="card-body">Card title</div>
             </div>
+            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+          </div>
+          <div className='col-3'>
+            <div className="card">
+              <img className="card-img-top" src={mushroomImage} alt="Card image cap"/>
+              <div className="card-body">Card title</div>
+            </div>
+            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+          </div>
+          <div className='col-3'>
+            <div className="card">
+              <img className="card-img-top" src={minecraftAvatarImage} alt="Card image cap"/>
+              <div className="card-body">Card title</div>
+            </div>
+            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+          </div>
+          <div className='col-3'>
+            <div className="card">
+              <img className="card-img-top" src={girlAvatarImage} alt="Card image cap"/>
+              <div className="card-body">Card title</div>
+            </div>
+            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+          </div>
+          <div className='col-3'>
+            <div className="card">
+              <img className="card-img-top" src={shapeBuilderImage} alt="Card image cap"/>
+              <div className="card-body">Card title</div>
+            </div>
+            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+          </div>
+          <div className='col-3'>
+            <div className="card">
+              <img className="card-img-top" src={zeoForestImage} alt="Card image cap"/>
+              <div className="card-body">Card title</div>
+            </div>
+            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
           </div>
         </div>
       </div>

@@ -1,6 +1,15 @@
 .newsPage {
 }
 
+.card .card-body {
+  margin-top: -50px;
+  height: 50px;
+  background-color: #000;
+  color: #FFF;
+  display: flex;
+  align-items: center;
+}
+
 .heading {
   float: left;
   background-color: #000;
