@@ -10,6 +10,7 @@
     // font-size: 13px;
     border-bottom: 2px solid transparent;
     align-items: center;
+
 }
 .nav-link:hover{
     border-bottom-color: #654373;
@@ -37,8 +38,4 @@ a:hover{
 }
 .brandName{
     line-height: 50px;
-}
-.navbar-nav{
-    float: right;
-    right: 0;
 }
