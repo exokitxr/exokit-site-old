@@ -33,14 +33,14 @@ i{
     left: 0;
 }
 .arrowCol{
-    margin-bottom: 7vh;
+    margin-bottom: 20vh;
 }
 @media only screen and (max-width: 600px) {
     .display-4 {
         font-size: 2.5em;
     }
     .titlePage{
-        margin-top: -10%;
+        margin-top: -20%;
     }
     .arrowCol{
         margin-bottom: 2vh;
