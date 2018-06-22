@@ -2,32 +2,30 @@ import React, { Component } from 'react';
 import {Navbar} from 'react-bootstrap';
 import '../css/navbar.css';
 
+import exokitLogo from '../images/ExokitLogo.png';
+
 class TopNavbar extends Component {
-    render() {
-        return (
-                <Navbar>
-                    <div className='row nav justify-content-center' >
-                        <div className='col'>
-                            <a href='#'>
-                                <span id='homeNavItem' className='nav-link'>Home</span>
-                            </a>
-                        </div>
-                        <div className='col'>
-                            <a href='https://discord.gg/aQhHskF'>
-                                <span id='discordNavItem' className='nav-link'>Discord</span>
-                            </a>
-                        </div>
-                        <div className='col'>
-                            <a href='https://www.twitch.tv/avaer/'>
-                                <span id='twitchNavItem' className='nav-link'>Twitch</span>
-                            </a>
-                        </div>
-                        <div className='col'>
-                            <span id='downloadNavItem' className='nav-link'>Download</span>
-                        </div>
-                    </div>
-                </Navbar>
-        );
-    }
+  render() {
+    return (
+      <Navbar>
+        <div className='row nav d-flex align-items-center'>
+          <div className='nav-link flex-grow-1 d-flex align-items-center justify-content-start'>
+            <img src={exokitLogo}/>
+            <div>Exokit</div>
+          </div>
+          <a className='nav-link' href='#'>
+            Home
+          </a>
+          <a className='nav-link' href='https://discord.gg/aQhHskF'>
+            Discord
+          </a>
+          <a className='nav-link' href='https://www.twitch.tv/avaer/'>
+            Twitch
+          </a>
+          <span id='downloadNavItem' className='nav-link'>Download</span>
+        </div>
+      </Navbar>
+    );
+  }
 }
 export default TopNavbar;
