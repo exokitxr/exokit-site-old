@@ -2,9 +2,7 @@ import React, { Component } from 'react';
 import {Jumbotron} from 'react-bootstrap';
 import './css/App.css';
 import TopNavbar from './components/navbar';
-import AppGrid from './components/appGrid';
 import TitlePage from "./components/titlePage";
-import DemoPage from "./components/demoPage";
 import FeaturesPage from "./components/featuresPage";
 import FeaturesPageNav from "./components/featuresPageNav";
 import MultiplayerPage from "./components/multiplayerPage";
@@ -17,10 +15,10 @@ class App extends Component {
         <TopNavbar/>
         <TitlePage/>
         {/* <DemoPage/> */}
+        <FeaturesPageNav/>
         <FeaturesPage/>
-        <FeaturesPageNav/>
-        <FeaturesPageNav/>
-        <FeaturesPageNav/>
+        <FeaturesPage/>
+        <FeaturesPage/>
         <MultiplayerPage/>
         <NewsPageNav/>
         <Jumbotron>

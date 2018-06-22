@@ -13,51 +13,69 @@ class NewPage extends Component {
     return (
       <div className='newsPage'>
         <h1 className='heading display-4'>News</h1>
+
         <div className='row'>
-          <div className='col-3'>
+          <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
             <div className="card">
               <img className="card-img-top" src={portalImage} alt="Card image cap"/>
               <div className="card-body">Card title</div>
             </div>
             <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
           </div>
-          <div className='col-3'>
+          <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
             <div className="card">
               <img className="card-img-top" src={mushroomImage} alt="Card image cap"/>
               <div className="card-body">Card title</div>
             </div>
             <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
           </div>
-          <div className='col-3'>
+          <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
             <div className="card">
               <img className="card-img-top" src={minecraftAvatarImage} alt="Card image cap"/>
               <div className="card-body">Card title</div>
             </div>
             <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
           </div>
-          <div className='col-3'>
+          <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
             <div className="card">
               <img className="card-img-top" src={girlAvatarImage} alt="Card image cap"/>
               <div className="card-body">Card title</div>
             </div>
             <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
           </div>
-          <div className='col-3'>
-            <div className="card">
-              <img className="card-img-top" src={shapeBuilderImage} alt="Card image cap"/>
-              <div className="card-body">Card title</div>
+        </div>
+
+          <div className='row'>
+            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+              <div className="card">
+                <img className="card-img-top" src={shapeBuilderImage} alt="Card image cap"/>
+                <div className="card-body">Card title</div>
+              </div>
+              <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
             </div>
-            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
-          </div>
-          <div className='col-3'>
-            <div className="card">
-              <img className="card-img-top" src={zeoForestImage} alt="Card image cap"/>
-              <div className="card-body">Card title</div>
+            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+              <div className="card">
+                <img className="card-img-top" src={zeoForestImage} alt="Card image cap"/>
+                <div className="card-body">Card title</div>
+              </div>
+              <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
             </div>
-            <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+              <div className="card">
+                <img className="card-img-top" src={zeoForestImage} alt="Card image cap"/>
+                <div className="card-body">Card title</div>
+              </div>
+              <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+            </div>
+            <div className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+              <div className="card">
+                <img className="card-img-top" src={zeoForestImage} alt="Card image cap"/>
+                <div className="card-body">Card title</div>
+              </div>
+              <div className='card-footer d-flex justify-content-flex-start'>Apr 1st</div>
+            </div>
           </div>
         </div>
-      </div>
     );
   }
 }
