@@ -22,7 +22,9 @@ class TopNavbar extends Component {
           <a className='nav-link' href='https://www.twitch.tv/avaer/'>
             Twitch
           </a>
-          <span id='downloadNavItem' className='nav-link'>Download</span>
+          <a className='nav-link' href='https://get.webmr.io/'>
+            Download
+          </a>
         </div>
       </Navbar>
     );
