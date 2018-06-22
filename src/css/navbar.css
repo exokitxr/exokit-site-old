@@ -35,3 +35,10 @@ a:hover{
     height: 50px;
     margin-right: 10px;
 }
+.brandName{
+    line-height: 50px;
+}
+.navbar-nav{
+    float: right;
+    right: 0;
+}
