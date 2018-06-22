@@ -1,0 +1,47 @@
+.multiplayerPage .list-group {
+  width: 100%;
+}
+
+.multiplayerPage .list-group-item {
+  margin-bottom: 2px;
+  padding: 10px 20px;
+  background-color: #42A5F5;
+  border: 0;
+  border-radius: 0;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.multiplayerPage .list-group-item:hover {
+  background-color: #7E57C2;
+}
+
+.multiplayerPage .server-img {
+  width: 80px;
+  height: 80px;
+  margin-top: -10px;
+  margin-left: -20px;
+  margin-right: 10px;
+}
+
+.multiplayerPage .server-name {
+  margin-right: auto;
+  text-align: left;
+}
+
+.multiplayerPage .server-name-title {
+  
+}
+
+.multiplayerPage p {
+  font-size: 12px;
+}
+
+.multiplayerPage .server-stat {
+}
+
+.multiplayerPage i {
+  display: flex;
+  padding: 0 10px;
+  font-size: 14px;
+}
