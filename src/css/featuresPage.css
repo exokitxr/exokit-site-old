@@ -14,7 +14,7 @@
 }
 
 .featuresPageNav.scrolled {
-  position: static;
+
 }
 
 .featuresPage {
@@ -44,7 +44,4 @@
   background-color: #000;
   font-weight: 400;
   color: #FFF;
-}
-.appCards{
-
 }
