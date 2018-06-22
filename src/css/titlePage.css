@@ -22,14 +22,17 @@ i{
     top: 50%; left: 50%;
     transform: translate(-50%,-50%);
 }
-.buttonRow{
-    width: 30%;
+.titleIconsCol{
+    padding-left: 0;
+    padding-right: 0;
 }
-.display-4{
-    padding-left: 50px;
-    padding-right: 50px;
-}
+
 .fa-angle-down{
-    padding-top: 96vh;
+    padding-top: 82vh;
     color: rgba(29, 33, 36, 0.45);
+}
+@media only screen and (max-width: 600px) {
+    .display-4 {
+        font-size: 2.5em;
+    }
 }

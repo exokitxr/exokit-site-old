@@ -17,12 +17,12 @@ class TitlePage extends Component {
                     <br/>
 
                     <div className='row buttonRow'>
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
                             <a href='https://threejs.org/'>
                                 <button type="button" className="btn btn-outline-primary btn-lg">Demos</button>
                             </a>
                         </div>
-                        <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                        <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
                             <a href='https://github.com/webmixedreality/exokit'>
                                 <button type="button" className="btn btn-outline-dark btn-lg">Github</button>
                             </a>
@@ -32,7 +32,7 @@ class TitlePage extends Component {
                     <br/>
 
                     <div className='row'>
-                        <div className='col-12'>
+                        <div className='titleIconsCol col-12'>
                             <a href='https://github.com/webmixedreality/exokit'>
                                 <i className="fab fa-github fa-3x"/>
                             </a>
