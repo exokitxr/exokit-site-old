@@ -28,6 +28,10 @@
   height: 100%;
 }
 
+.featuresPage .main {
+  padding-top: 80px;
+}
+
 .featuresPageNav .appGrid {
   height: 100vh;
 }

@@ -1,12 +1,12 @@
 .newsPage {
 }
 
-.newsPage .heading {
+.heading {
   float: left;
   background-color: #000;
   color: #FFF;
 }
-.newsPage .heading::before {
+.heading::before {
   display: block;
   position: absolute;
   left: 0;

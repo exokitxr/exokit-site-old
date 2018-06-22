@@ -17,41 +17,77 @@ class NewPage extends Component {
           <div className='col-sm-8'>
             <div className='appGrid row d-flex'>
               <div className='appCards row col-12 flex-grow-1'>
-                <div className='appCard col-2'>
-                  <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
-                <div className='appCard col-2'>
-                  <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                <div className='col-2'>
+                  <div className='appCard'>
+                    <img src={minecraftAvatarImage} alt="VR Guy" className="img-fluid"/>
+                    <div className='title'>Title</div>
+                  </div>
                 </div>
               </div>
               <div className="alert alert-success">
