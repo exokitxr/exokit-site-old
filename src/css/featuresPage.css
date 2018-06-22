@@ -37,6 +37,7 @@
 }
 
 .featuresPageNav .alert {
+  height: 120px;
   margin: 0;
   border: 0;
   border-radius: 0;

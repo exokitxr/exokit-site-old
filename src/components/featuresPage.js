@@ -13,14 +13,17 @@ class NewPage extends Component {
     return (
       <div className='featuresPage'>
         <div className='row position-absolute'>
-          <h1 className='heading display-4'>Links</h1>
+          <h1 className='heading display-4'>Features</h1>
         </div>
         <div className='main row'>
           <div className='links col-sm-4'>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item'>First</li>
-              <li className='list-group-item'>Second</li>
-              <li className='list-group-item'>Third</li>
+              <li className='list-group-item'>Reality tabs</li>
+              <li className='list-group-item'>Multiplayer</li>
+              <li className='list-group-item'>Fastest browser</li>
+              <li className='list-group-item'>Vertically integrated</li>
+              <li className='list-group-item'>Horizontally integrated</li>
+              <li className='list-group-item'>Backwards compatible</li>
             </ul>
           </div>
           <div className='col-sm-8'/>
