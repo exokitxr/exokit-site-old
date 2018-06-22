@@ -97,7 +97,8 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      window.addEventListener('scroll', () => {
+(() => {
+      const _checkScroll = () => {
         const featuresPageEl = document.querySelector('.featuresPageNav');
         const limit = window.innerHeight * 3;
         const diff = window.document.body.parentNode.scrollTop - limit;
@@ -106,8 +107,10 @@
         } else {
           featuresPageEl.style.top = null;
         }
-        console.log('diff', diff, featuresPageEl.style.top);
-      });
+      };
+      window.addEventListener('resize', _checkScroll);
+      window.addEventListener('scroll', _checkScroll);
+})();
     </script>
   </body>
 </html>
