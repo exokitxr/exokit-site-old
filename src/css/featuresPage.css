@@ -1,0 +1,38 @@
+.featuresPage, .featuresPageNav {
+  width: 100%;
+  height: 100vh;
+}
+
+.featuresPage {
+  position: sticky;
+  top: 60px;
+  bottom: 100px;
+  margin: 0;
+  margin-bottom: -100vh;
+  padding: 0;
+  // background-color: #FFF;
+}
+
+.featuresPageNav {
+  background: linear-gradient(to right, #F8F8F8, #CCC);
+}
+.featuresPageNav:nth-child(even) {
+  background: linear-gradient(to right, #CCC, #F8F8F8);
+}
+
+.featuresPage .main, .featuresPageNav .main {
+  height: 100%;
+}
+
+.featuresPageNav .appGrid {
+  height: 100vh;
+}
+
+.featuresPageNav .alert {
+  margin: 0;
+  border: 0;
+  border-radius: 0;
+  background-color: #000;
+  font-weight: 400;
+  color: #FFF;
+}

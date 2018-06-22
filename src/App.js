@@ -5,7 +5,8 @@ import TopNavbar from './components/navbar';
 import AppGrid from './components/appGrid';
 import TitlePage from "./components/titlePage";
 import DemoPage from "./components/demoPage";
-import NewPage from "./components/newPage";
+import FeaturesPage from "./components/featuresPage";
+import FeaturesPageNav from "./components/featuresPageNav";
 
 class App extends Component {
   render() {
@@ -13,8 +14,11 @@ class App extends Component {
       <div className="App">
         <TopNavbar/>
         <TitlePage/>
-        <DemoPage/>
-        <NewPage/>
+        {/* <DemoPage/> */}
+        <FeaturesPage/>
+        <FeaturesPageNav/>
+        <FeaturesPageNav/>
+        <FeaturesPageNav/>
         <Jumbotron>
           <h1 className="display-4">Exokit</h1>
           <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
