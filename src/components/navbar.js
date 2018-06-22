@@ -20,10 +20,10 @@ class TopNavbar extends Component {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-item nav-link active justify-content-end" href=" . ">Home<span className="sr-only">(current)</span></a>
-              <a className="nav-item nav-link justify-content-end" href="https://discord.gg/aQhHskF">Discord</a>
-              <a className="nav-item nav-link justify-content-end" href="https://www.twitch.tv/avaer">Twitch</a>
-              <a className="nav-item nav-link justify-content-end" href="https://get.webmr.io">Download</a>
+              <a className="nav-item nav-link active justify-content-center" href=" . ">Home<span className="sr-only">(current)</span></a>
+              <a className="nav-item nav-link justify-content-center" href="https://discord.gg/aQhHskF">Discord</a>
+              <a className="nav-item nav-link justify-content-center" href="https://www.twitch.tv/avaer">Twitch</a>
+              <a className="nav-item nav-link justify-content-center" href="https://get.webmr.io">Download</a>
             </div>
           </div>
         </nav>
