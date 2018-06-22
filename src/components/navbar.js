@@ -27,11 +27,7 @@ class TopNavbar extends Component {
             </div>
           </div>
         </nav>
-
       </Navbar>
-
-
-
     );
   }
 }

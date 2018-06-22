@@ -1,4 +1,5 @@
 .featuresPageNav, .featuresPage {
+  display: block;
   width: 100%;
   height: 100vh;
 }
@@ -14,7 +15,6 @@
 }
 
 .featuresPageNav.scrolled {
-
 }
 
 .featuresPage {
@@ -28,12 +28,50 @@
   height: 100%;
 }
 
+.featuresPageNav {
+  z-index: 1;
+  pointer-events: none;
+}
+
+.featuresPageNav .heading-wrap {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.featuresPageNav .links {
+  width: 100%;
+}
+
+.featuresPageNav .heading, .featuresPageNav .main {
+  pointer-events: all;
+}
+
 .featuresPageNav .main {
+  padding: 0;
   padding-top: 80px;
 }
 
+.featuresPage .name {
+  position: absolute;
+  margin-top: -60px;
+}
+
 .featuresPage .appGrid {
+  display: flex;
   height: 100vh;
+  flex-direction: column;
+}
+
+.featuresPage .appCards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  flex: 1;
+  padding: 0;
+}
+
+.featuresPage .appCard {
 }
 
 .featuresPage .alert {

@@ -10,11 +10,12 @@ class FeaturesPage extends Component {
   render() {
     return (
       <div className='featuresPage'>
+        <a className='name' name={this.props.name}/>
         <div className='row'>
           <div className='links col-sm-4'/>
           <div className='col-sm-8'>
-            <div className='appGrid row d-flex'>
-              <div className='appCards row col-12 flex-grow-1'>
+            <div className='appGrid'>
+              <div className='appCards'>
                 <div className='row'>
                   <div className='col-lg-3 col-md-3 col-sm-6 col-xs-6'>
                     <div className='appCard'>

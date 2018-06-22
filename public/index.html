@@ -80,8 +80,6 @@
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
   </head>
   <body>
     <noscript>
@@ -99,25 +97,20 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
     <script>
-      window.addEventListener('scroll', () => {
+(() => {
+      const _checkScroll = () => {
         const featuresPageEl = document.querySelector('.featuresPageNav');
-        if (window.document.body.parentNode.scrollTop >= window.innerHeight * 3) {
-          featuresPageEl.classList.add('scrolled');
+        const limit = window.innerHeight * 3;
+        const diff = window.document.body.parentNode.scrollTop - limit;
+        if (diff > 0) {
+          featuresPageEl.style.top = (60 - diff) + 'px';
         } else {
-          featuresPageEl.classList.remove('scrolled');
+          featuresPageEl.style.top = null;
         }
-      });
-
-      $(window).scroll(function(){
-        const threshold = 2000; // number of pixels before bottom of page that you want to start fading
-        const op = (($(document).height() - $(window).height()) - $(window).scrollTop()) / threshold;
-        if( op <= 0 ){
-          $(".featuresPageNav").hide();
-        } else {
-          $(".featuresPageNav").show();
-        }
-        $(".featuresPageNav").css("opacity", op );
-      });
+      };
+      window.addEventListener('resize', _checkScroll);
+      window.addEventListener('scroll', _checkScroll);
+})();
     </script>
   </body>
 </html>

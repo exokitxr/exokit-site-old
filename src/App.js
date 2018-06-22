@@ -16,9 +16,9 @@ class App extends Component {
         <TitlePage/>
         {/* <DemoPage/> */}
         <FeaturesPageNav/>
-        <FeaturesPage/>
-        <FeaturesPage/>
-        <FeaturesPage/>
+        <FeaturesPage name='feature-1'/>
+        <FeaturesPage name='feature-2'/>
+        <FeaturesPage name='feature-3'/>
         <MultiplayerPage/>
         <NewsPageNav/>
         <Jumbotron>
