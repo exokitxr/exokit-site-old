@@ -14,7 +14,8 @@
       const _checkScroll = () => {
         const featuresPageEl = document.querySelector('.featuresPageNav');
         const limit = window.innerHeight * 3;
-        const diff = window.document.body.parentNode.scrollTop - limit;
+        const screenRatio = window.devicePixelRatio;
+        const diff = (window.document.body.parentNode.scrollTop - limit) / screenRatio;
         if (diff > 0) {
           featuresPageEl.style.top = (60 - diff) + 'px';
         } else {
