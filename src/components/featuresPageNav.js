@@ -5,21 +5,21 @@ class FeaturesPageNav extends Component {
   render() {
     return (
       <div className='featuresPageNav'>
-        <div className='row position-absolute'>
+        <div className='heading-wrap'>
           <h1 className='heading display-4'>Features</h1>
         </div>
-        <div className='main row'>
-          <div className='links col-sm-4'>
+        <div className='main row col-3'>
+          <div className='links'>
             <ul className='list-group list-group-flush'>
-              <li className='list-group-item'>Reality tabs</li>
-              <li className='list-group-item'>Multiplayer</li>
-              <li className='list-group-item'>Fastest browser</li>
-              <li className='list-group-item'>Vertically integrated</li>
-              <li className='list-group-item'>Horizontally integrated</li>
-              <li className='list-group-item'>Backwards compatible</li>
+              <li className='list-group-item'><a href="#feature-1">Reality tabs</a></li>
+              <li className='list-group-item'><a href="#feature-1">Multiplayer</a></li>
+              <li className='list-group-item'><a href="#feature-1">Fastest browser</a></li>
+              <li className='list-group-item'><a href="#feature-1">Vertically integrated</a></li>
+              <li className='list-group-item'><a href="#feature-1">Horizontally integrated</a></li>
+              <li className='list-group-item'><a href="#feature-1">Backwards compatible</a></li>
             </ul>
           </div>
-          <div className='col-sm-8'/>
+          <div className='col-8'/>
         </div>
       </div>
     );
