@@ -13,6 +13,10 @@
   // background-color: #FFF;
 }
 
+.featuresPage.scrolled {
+  position: static;
+}
+
 .featuresPageNav {
   background: linear-gradient(to right, #F8F8F8, #CCC);
 }
