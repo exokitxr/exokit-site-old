@@ -1,12 +1,12 @@
 {
-  "main.css": "static/css/main.4dc715e0.css",
-  "main.css.map": "static/css/main.4dc715e0.css.map",
-  "main.js": "static/js/main.1c295369.js",
-  "main.js.map": "static/js/main.1c295369.js.map",
-  "static/media/girlAvatar.png": "static/media/girlAvatar.286a4f24.png",
-  "static/media/minecraftAvatar.png": "static/media/minecraftAvatar.7a1fca1d.png",
-  "static/media/mushrooms.png": "static/media/mushrooms.ae942b9e.png",
-  "static/media/portals.png": "static/media/portals.0e72e5bb.png",
-  "static/media/shapeBuilder.png": "static/media/shapeBuilder.6f3805e9.png",
-  "static/media/zeoForest.png": "static/media/zeoForest.0cec403e.png"
+  "main.css": "static/css/main.063e9c4d.css",
+  "main.css.map": "static/css/main.063e9c4d.css.map",
+  "main.js": "static/js/main.bf701d96.js",
+  "main.js.map": "static/js/main.bf701d96.js.map",
+  "static\\media\\girlAvatar.png": "static/media/girlAvatar.286a4f24.png",
+  "static\\media\\minecraftAvatar.png": "static/media/minecraftAvatar.7a1fca1d.png",
+  "static\\media\\mushrooms.png": "static/media/mushrooms.ae942b9e.png",
+  "static\\media\\portals.png": "static/media/portals.0e72e5bb.png",
+  "static\\media\\shapeBuilder.png": "static/media/shapeBuilder.6f3805e9.png",
+  "static\\media\\zeoForest.png": "static/media/zeoForest.0cec403e.png"
 }
