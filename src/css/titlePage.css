@@ -2,11 +2,13 @@
     height: 100vh;
     width: 100%;
     position: relative;
-    padding-top: 60px;
     background: #D3959B;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #BFE6BA, #D3959B);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #BFE6BA, #D3959B); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 body{
     color: black;
@@ -17,22 +19,39 @@ body{
 i{
     padding: 10px;
 }
-.titleText{
-    position: absolute;
-    top: 50%; left: 50%;
-    transform: translate(-50%,-50%);
-}
 .titleIconsCol{
-    padding-left: 0;
-    padding-right: 0;
+    padding-left: 50px;
+    padding-right: 50px;
 }
-
 .fa-angle-down{
-    padding-top: 82vh;
     color: rgba(29, 33, 36, 0.45);
+}
+.arrow{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+.arrowCol{
+    margin-bottom: 7vh;
 }
 @media only screen and (max-width: 600px) {
     .display-4 {
         font-size: 2.5em;
     }
+    .titlePage{
+        margin-top: -10%;
+    }
+    .arrowCol{
+        margin-bottom: 2vh;
+    }
+}
+.row{
+    margin: 0;
+}
+#rightButton{
+    margin-left: 10px;
+}
+#leftButton{
+    margin-right: 10px;
 }

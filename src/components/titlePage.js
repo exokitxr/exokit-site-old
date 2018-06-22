@@ -15,21 +15,19 @@ class TitlePage extends Component {
                     <br/>
 
                     <div className='row buttonRow'>
-                        <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
+                        <div className='buttonCol col-12'>
                             <a href='https://threejs.org/'>
-                                <button type="button" className="btn btn-outline-primary btn-lg">Demos</button>
+                                <button type="button" id='leftButton' className="btn btn-outline-primary btn-lg">Demos</button>
                             </a>
-                        </div>
-                        <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6'>
                             <a href='https://github.com/webmixedreality/exokit'>
-                                <button type="button" className="btn btn-outline-dark btn-lg">Github</button>
+                                <button id='rightButton' type="button" className="btn btn-outline-dark btn-lg">Github</button>
                             </a>
                         </div>
                     </div>
 
                     <br/>
 
-                    <div className='row'>
+                    <div className='iconsRow row'>
                         <div className='titleIconsCol col-12'>
                             <a href='https://github.com/webmixedreality/exokit'>
                                 <i className="fab fa-github fa-3x"/>
@@ -51,8 +49,14 @@ class TitlePage extends Component {
                             </a>
                         </div>
                     </div>
+
+                  <div className='arrow row'>
+                    <div className='arrowCol col-12'>
+                      <i className="fas fa-angle-down fa-3x"/>
+                    </div>
+                  </div>
+
                 </div>
-                <i className="fas fa-angle-down fa-3x"/>
             </div>
         );
     }
