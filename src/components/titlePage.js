@@ -1,7 +1,5 @@
 import React, { Component } from 'react';
 import '../css/titlePage.css';
-import exokitLogo from '../images/ExokitLogo.png'
-
 
 class TitlePage extends Component {
     render() {

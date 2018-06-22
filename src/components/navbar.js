@@ -9,7 +9,7 @@ class TopNavbar extends Component {
     return (
       <Navbar>
         <nav className="navbar navbar-expand-lg navbar-light">
-          <a className="navbar-brand" href="#">
+          <a className="navbar-brand" href=" . ">
             <img src={exokitLogo} width="30"
                  height="30" className="d-inline-block align-top" alt=""/>
               <span className='brandName'>Exokit</span>
@@ -20,7 +20,7 @@ class TopNavbar extends Component {
           </button>
           <div className="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
             <div className="navbar-nav">
-              <a className="nav-item nav-link active justify-content-end" href="#">Home<span className="sr-only">(current)</span></a>
+              <a className="nav-item nav-link active justify-content-end" href=" . ">Home<span className="sr-only">(current)</span></a>
               <a className="nav-item nav-link justify-content-end" href="https://discord.gg/aQhHskF">Discord</a>
               <a className="nav-item nav-link justify-content-end" href="https://www.twitch.tv/avaer">Twitch</a>
               <a className="nav-item nav-link justify-content-end" href="https://get.webmr.io">Download</a>
