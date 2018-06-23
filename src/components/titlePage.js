@@ -17,10 +17,10 @@ class TitlePage extends Component {
                     <div className='row buttonRow'>
                         <div className='buttonCol col-12'>
                             <a href='https://threejs.org/'>
-                                <button type="button" id='leftButton' className="btn btn-outline-primary btn-lg">Demos</button>
+                                <button type="button" id='leftButton' className="btn btn-primary btn-lg">Demos</button>
                             </a>
                             <a href='https://github.com/webmixedreality/exokit'>
-                                <button id='rightButton' type="button" className="btn btn-outline-dark btn-lg">Github</button>
+                                <button id='rightButton' type="button" className="btn btn-dark btn-lg">Github</button>
                             </a>
                         </div>
                     </div>
