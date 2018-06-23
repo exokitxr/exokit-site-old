@@ -6,29 +6,41 @@
     display: flex;
     align-items: center;
     justify-content: center;
+    background: linear-gradient(120deg, #ce2870, #02bc9f, #098d8b);
+    background-size: 700% 600%;
 
-    background: linear-gradient(232deg, #654373, #02bc9f);
-    background-size: 400% 400%;
+    -webkit-animation: titlePageGradient 10s ease infinite;
+    -moz-animation: titlePageGradient 10s ease infinite;
+    -o-animation: titlePageGradient 10s ease infinite;
+    animation: titlePageGradient 10s ease infinite;
+}
 
-    -webkit-animation: AnimationName 8s ease infinite;
-    -moz-animation: AnimationName 8s ease infinite;
-    animation: AnimationName 8s ease infinite;
+@-webkit-keyframes titlePageGradient {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-moz-keyframes titlePageGradient {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@-o-keyframes titlePageGradient {
+    0%{background-position:4% 0%}
+    50%{background-position:97% 100%}
+    100%{background-position:4% 0%}
+}
+@keyframes titlePageGradient {
+    0% {
+        background-position: 4% 0%
+    }
+    50% {
+        background-position: 97% 100%
+    }
+    100% {
+        background-position: 4% 0%
+    }
 
-}
-@-webkit-keyframes AnimationName {
-    0%{background-position:0% 73%}
-    50%{background-position:100% 28%}
-    100%{background-position:0% 73%}
-}
-@-moz-keyframes AnimationName {
-    0%{background-position:0% 73%}
-    50%{background-position:100% 28%}
-    100%{background-position:0% 73%}
-}
-@keyframes AnimationName {
-    0%{background-position:0% 73%}
-    50%{background-position:100% 28%}
-    100%{background-position:0% 73%}
 }
 body{
     color: black;
