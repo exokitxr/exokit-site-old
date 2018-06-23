@@ -41,3 +41,12 @@ a:hover{
 .navbar-collapse{
     background-color: rgb(255, 255, 255);
 }
+
+.navbar .download {
+  height: 36px;
+  padding: 0 20px;
+  background-image: linear-gradient(to right, #654373, #02BC9F);
+  border-radius: 5px;
+  border-bottom: 1px solid #CE2870;
+  color: #FFF !important;
+}
