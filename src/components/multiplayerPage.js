@@ -11,9 +11,11 @@ class MultiplayerPage extends Component {
   render() {
     return (
       <div className='multiplayerPage'>
-        <h1 className='heading display-4'>Multiplayer servers</h1>
-        <p>Click one to enter</p>
+        <div className='row'>
+          <h1 className='heading display-4'>Multiplayer servers</h1>
+        </div>
         <div className='container'>
+          <h2 className='subheading'>Click to enter</h2>
           <ul className="list-group">
             <li className="list-group-item d-flex">
               <img className="server-img" src={portalImage} alt="Card"/>

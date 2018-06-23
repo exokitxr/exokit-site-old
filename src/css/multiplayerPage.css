@@ -33,8 +33,9 @@
   
 }
 
-.multiplayerPage p {
-  font-size: 12px;
+.multiplayerPage .subheading {
+  margin: 20px 0;
+  font-weight: 400;
 }
 
 .multiplayerPage .server-stat {
