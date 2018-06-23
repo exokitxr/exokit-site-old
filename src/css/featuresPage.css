@@ -3,7 +3,6 @@
   width: 100%;
   height: calc(100vh - 92px);
 }
-
 .featuresPageNav {
   position: sticky;
   top: 92px;
@@ -12,74 +11,55 @@
   padding: 0;
   // background-color: #FFF;
 }
-
 .featuresPageNav + .featuresPage {
   margin-top: calc(-100vh + 92px);
-}
-
-.featuresPage {
-  background: linear-gradient(to right, #F8F8F8, #CCC);
 }
 .featuresPage:nth-child(even) {
   background: linear-gradient(to right, #CCC, #F8F8F8);
 }
-
 .featuresPageNav .main, .featuresPage .main {
   height: 100%;
 }
-
 .featuresPageNav {
   z-index: 1;
   pointer-events: none;
 }
-
 .featuresPageNav .heading-wrap {
   position: absolute;
   left: 0;
   right: 0;
 }
-
-.featuresPageNav .links {
-  width: 100%;
-}
-
 .featuresPageNav .heading, .featuresPageNav .main {
   pointer-events: all;
 }
-
 .featuresPageNav .main {
   padding: 0;
   padding-top: 80px;
 }
-
 .featuresPage .name {
   position: absolute;
   margin-top: -60px;
 }
-
-.featuresPage .appGrid {
-  display: flex;
-  height: calc(100vh - 92px);
-  flex-direction: column;
-}
-
-.featuresPage .appCards {
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  flex: 1;
-  padding: 0;
-}
-
-.featuresPage .appCard {
-}
-
 .featuresPage .alert {
-  height: 120px;
-  margin: 0 15px;
+  height: 150px;
+  margin: 60px;
+  margin-left: 35%;
   border: 0;
   border-radius: 0;
   background-color: #000;
   font-weight: 400;
   color: #FFF;
+  position: absolute;
+  bottom: 0;
+  overflow: scroll;
+}
+.featuresPage .featuresRow{
+  padding-left: 30%
+}
+.featuresPage {
+  background: linear-gradient(to right, #F8F8F8, #CCC);
+  position:relative;
+}
+.featuresPage .appCard{
+
 }

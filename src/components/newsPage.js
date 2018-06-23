@@ -1,16 +1,9 @@
 import React, { Component } from 'react';
 import '../css/newsPage.css';
 
-import portalImage from '../images/portals.png'
-import mushroomImage from '../images/mushrooms.png'
-import minecraftAvatarImage from '../images/minecraftAvatar.png'
-import girlAvatarImage from '../images/girlAvatar.png'
-import shapeBuilderImage from '../images/shapeBuilder.png'
-import zeoForestImage from '../images/zeoForest.png'
-
 import newsItems from '../text/news.json';
 
-class NewPage extends Component {
+class NewsPage extends Component {
   render() {
     const newsPerRow = 4;
     const rows = [];
@@ -39,4 +32,4 @@ class NewPage extends Component {
     );
   }
 }
-export default NewPage;
+export default NewsPage;

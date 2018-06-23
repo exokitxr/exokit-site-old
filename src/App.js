@@ -6,7 +6,7 @@ import TitlePage from "./components/titlePage";
 import FeaturesPage from "./components/featuresPage";
 import FeaturesPageNav from "./components/featuresPageNav";
 import MultiplayerPage from "./components/multiplayerPage";
-import NewsPageNav from "./components/newsPage";
+import NewsPage from "./components/newsPage";
 import Footer from "./components/footer";
 
 class App extends Component {
@@ -15,18 +15,16 @@ class App extends Component {
       <div className="App">
         <TopNavbar/>
         <TitlePage/>
-        {/* <DemoPage/> */}
         <FeaturesPageNav/>
         <FeaturesPage name='feature-1'/>
         <FeaturesPage name='feature-2'/>
         <FeaturesPage name='feature-3'/>
         <MultiplayerPage/>
-        <NewsPageNav/>
+        <NewsPage/>
         <Jumbotron>
           <h1 className="display-4">Exokit</h1>
           <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
         </Jumbotron>
-        {/* <AppGrid/> */}
         <Footer/>
       </div>
     );
