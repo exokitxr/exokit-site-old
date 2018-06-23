@@ -11,31 +11,37 @@ import zeoForestImage from '../images/zeoForest.png'
 const newsItems = [
   {
     title: 'Title one',
+    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
     img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
     date: 'Apr 1st',
   },
   {
     title: 'Title two',
+    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
     img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
     date: 'Apr 1st',
   },
   {
     title: 'Title three',
+    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
     img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
     date: 'Apr 1st',
   },
   {
     title: 'Title one',
+    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
     img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
     date: 'Apr 1st',
   },
   {
     title: 'Title two',
+    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
     img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
     date: 'Apr 1st',
   },
   {
     title: 'Title three',
+    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
     img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
     date: 'Apr 1st',
   },
@@ -56,7 +62,7 @@ class NewPage extends Component {
         {rows.map(row =>
           <div className='row'>
             {row.map(newsItem =>
-              <a className='col-lg-3 col-md-6 col-sm-12 col-xs-12'>
+              <a className='col-lg-3 col-md-6 col-sm-12 col-xs-12' href={newsItem.url}>
                 <div className="card">
                   <img className="card-img-top" src={newsItem.img} alt="Card"/>
                   <div className="card-body">{newsItem.title}</div>
