@@ -1,15 +1,12 @@
 .img-thumbnail{
   max-height: 300px;
   width: auto;
-  // filter: blur(10px);
 }
 .appCards{
   margin: 0;
   padding: 30px;
-  // transition: all .2s ease-in-out;
 }
 .appCards:hover{
-  // transform: scale(1.1);
 }
 .appCard {
   position: relative;
@@ -18,6 +15,7 @@
   cursor: pointer;
 }
 .appCard:hover img {
+  transform: none;
   filter: none;
 }
 .appCard:hover .title {
@@ -25,6 +23,7 @@
   background-color: rgba(0, 0, 0, 0.5);
 }
 .appCard img {
+  transform: scale(1.1);
   filter: blur(2px);
 }
 .appCard .title {

@@ -12,7 +12,7 @@ class FeaturesPage extends Component {
       <div className='featuresPage'>
         <a className='name' name={this.props.name}/>
                 <div className='featuresRow row'>
-                  <div className='col-6 p-0 pt-4'>
+                  <div className='col-6 p-0'>
                     <div className='row p-0'>
                       <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
@@ -42,7 +42,7 @@ class FeaturesPage extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className='col-6 p-0 pt-4'>
+                  <div className='col-6 p-0'>
                     <div className='row p-0'>
                       <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>

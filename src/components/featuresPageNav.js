@@ -8,16 +8,16 @@ class FeaturesPageNav extends Component {
         <div className='heading-wrap'>
           <h1 className='heading display-4'>Features</h1>
         </div>
-        <div className='main row col-3'>
+        <div className='main'>
           <div className='links'>
-            <ul className='list-group list-group-flush'>
-              <li className='list-group-item'><a href="#feature-1">Reality tabs</a></li>
-              <li className='list-group-item'><a href="#feature-1">Multiplayer</a></li>
-              <li className='list-group-item'><a href="#feature-1">Fastest browser</a></li>
-              <li className='list-group-item'><a href="#feature-1">Vertically integrated</a></li>
-              <li className='list-group-item'><a href="#feature-1">Horizontally integrated</a></li>
-              <li className='list-group-item'><a href="#feature-1">Backwards compatible</a></li>
-            </ul>
+            <div className='list-group list-group-flush'>
+              <a href="#feature-1" className='list-group-item'>Reality tabs</a>
+              <a href="#feature-1" className='list-group-item'>Multiplayer</a>
+              <a href="#feature-1" className='list-group-item'>Fastest browser</a>
+              <a href="#feature-1" className='list-group-item'>Vertically integrated</a>
+              <a href="#feature-1" className='list-group-item'>Horizontally integrated</a>
+              <a href="#feature-1" className='list-group-item'>Backwards compatible</a>
+            </div>
           </div>
           <div className='col-8'/>
         </div>
