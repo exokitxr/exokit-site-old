@@ -7,6 +7,7 @@ import FeaturesPage from "./components/featuresPage";
 import FeaturesPageNav from "./components/featuresPageNav";
 import MultiplayerPage from "./components/multiplayerPage";
 import NewsPageNav from "./components/newsPage";
+import Footer from "./components/footer";
 
 class App extends Component {
   render() {
@@ -26,6 +27,7 @@ class App extends Component {
           <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
         </Jumbotron>
         {/* <AppGrid/> */}
+        <Footer/>
       </div>
     );
   }
