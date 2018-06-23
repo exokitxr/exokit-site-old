@@ -8,6 +8,10 @@
   align-items: center;
 }
 
+.card-footer {
+  border-top: 0;
+}
+
 .heading {
   float: left;
   background-color: #000;
