@@ -8,44 +8,7 @@ import girlAvatarImage from '../images/girlAvatar.png'
 import shapeBuilderImage from '../images/shapeBuilder.png'
 import zeoForestImage from '../images/zeoForest.png'
 
-const newsItems = [
-  {
-    title: 'Title one',
-    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
-    img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
-    date: 'Apr 1st',
-  },
-  {
-    title: 'Title two',
-    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
-    img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
-    date: 'Apr 1st',
-  },
-  {
-    title: 'Title three',
-    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
-    img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
-    date: 'Apr 1st',
-  },
-  {
-    title: 'Title one',
-    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
-    img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/portals.png',
-    date: 'Apr 1st',
-  },
-  {
-    title: 'Title two',
-    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
-    img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/mushrooms.png',
-    date: 'Apr 1st',
-  },
-  {
-    title: 'Title three',
-    url: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
-    img: 'https://cdn.rawgit.com/webmixedreality/exokit-site/6723ae34/src/images/minecraftAvatar.png',
-    date: 'Apr 1st',
-  },
-];
+import newsItems from '../text/news.json';
 
 class NewPage extends Component {
   render() {
