@@ -12,29 +12,29 @@ class FeaturesPage extends Component {
       <div className='featuresPage'>
         <a className='name' name={this.props.name}/>
                 <div className='featuresRow row'>
-                  <div className='col-6'>
-                    <div className='row pt-4'>
-                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-2'>
+                  <div className='col-6 p-0 pt-4'>
+                    <div className='row p-0'>
+                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
-                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
                     </div>
-                    <div className='row pt-4'>
-                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-12 pb-2'>
+                    <div className='row p-0'>
+                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
-                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>
@@ -42,29 +42,29 @@ class FeaturesPage extends Component {
                       </div>
                     </div>
                   </div>
-                  <div className='col-6'>
-                    <div className='row pt-4'>
-                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 pb-2'>
+                  <div className='col-6 p-0 pt-4'>
+                    <div className='row p-0'>
+                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
-                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+                      <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
                     </div>
-                    <div className='row pt-4'>
-                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-12 pb-2'>
+                    <div className='row p-0'>
+                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
-                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-12'>
+                      <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>

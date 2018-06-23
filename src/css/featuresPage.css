@@ -42,7 +42,6 @@
 }
 .featuresPage .alert {
   height: 150px;
-  margin: 60px;
   margin-left: 35%;
   border: 0;
   border-radius: 0;
@@ -51,10 +50,12 @@
   color: #FFF;
   position: absolute;
   bottom: 0;
-  overflow: scroll;
+  overflow-y: scroll;
 }
 .featuresPage .featuresRow{
-  padding-left: 30%
+  padding-left: 30%;
+  padding-top: 5vh;
+  padding-right: 2vw;
 }
 .featuresPage {
   background: linear-gradient(to right, #F8F8F8, #CCC);
