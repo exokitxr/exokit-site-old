@@ -101,7 +101,18 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
     <script src="https://rawgit.com/garand/sticky/master/jquery.sticky.js"></script>
+
+    <!-- Email Signup script -->
+    <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script>
+    <script type='text/javascript'>
+      (function($) {window.fnames = new Array();
+      window.ftypes = new Array();
+      fnames[0]='EMAIL';
+      ftypes[0]='email';
+      }(jQuery));
+      var $mcj = jQuery.noConflict(true);</script>
     <script>
+
 (() => {
       const offset = 92;
       const _checkScroll = () => {
