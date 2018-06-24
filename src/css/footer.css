@@ -1,12 +1,25 @@
 .footer{
-    max-height: 100px;
     position: relative;
     bottom: 0;
     right: 0;
     left: 0;
-    background-color: #d3d3d3;
+    background-color: black;
+    color: white;
+    text-align: left;
 }
 .footer .lead{
     font-weight: lighter;
     margin-top: 12px;
+    color: white;
+    text-align: left;
+}
+.footer h3{
+    text-align: left;
+    padding: 10px;
+}
+.footer .emailForm{
+    width: 80%;
+}
+.footer .copyright{
+    text-align: right;
 }
