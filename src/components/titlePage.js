@@ -35,16 +35,16 @@ class TitlePage extends Component {
                             <a href='https://twitter.com/webmixedreality'>
                                 <i className="fab fa-twitter fa-3x"/>
                             </a>
-                            <a href=''>
+                            <a href='https://www.facebook.com/webmixedreality/'>
                                 <i className="fab fa-facebook fa-3x"/>
                             </a>
                             <a href='https://www.instagram.com/exokitbrowser/?hl=en'>
                                 <i className="fab fa-instagram fa-3x"/>
                             </a>
-                            <a href=''>
-                                <i className="fab fa-linkedin fa-3x"/>
+                            <a href='https://www.twitch.tv/avaer/'>
+                                <i className="fab fa-twitch fa-3x"/>
                             </a>
-                            <a href=''>
+                            <a href='https://www.youtube.com/channel/UCbeboI7dMETmnUro91AxJZA'>
                                 <i className="fab fa-youtube fa-3x"/>
                             </a>
                         </div>

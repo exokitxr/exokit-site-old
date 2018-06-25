@@ -27,10 +27,33 @@
 .featuresPageNav .heading, .featuresPageNav .main {
   pointer-events: all;
 }
+.featuresPageNav .heading-wrap{
+  float: left;
+}
+.featuresPageNav .heading{
+  float: left;
+  background-color: #000;
+  color: #FFF;
+}
+.featuresPageNav .heading::before{
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #000;
+  content: '';
+}
+
 .featuresPageNav .main {
   width: 30vw;
   padding: 0;
   padding-top: 92px;
+}
+.featuresPageNav a{
+  color: black;
+}
+.featuresPageNav a:hover{
+  color: #098D8B;
 }
 .featuresPage .name {
   position: absolute;
@@ -38,8 +61,7 @@
 }
 .featuresPage .alert {
   height: 150px;
-  margin: 0;
-  margin-left: 30vw;
+  margin: 0 0 0 30vw;
   border: 0;
   border-radius: 0;
   background-color: #000;
@@ -51,10 +73,56 @@
 }
 .featuresPage .featuresRow{
   padding-left: 30vw;
+  padding-top: 20px;
 }
-.featuresPage {
+.featuresPage{
   background: #FFF;
   position:relative;
 }
-.featuresPage .appCard{
+.featuresPage .row{
+  margin-right: 0;
+  margin-left: 0;
+}
+.featuresPage .img-thumbnail{
+  max-height: 300px;
+  width: auto;
+}
+.featuresPage .appCards{
+  margin: 0;
+  padding: 30px;
+}
+.featuresPage .appCards:hover{
+}
+.featuresPage .appCard {
+  position: relative;
+  padding: 0;
+  overflow: hidden;
+  cursor: pointer;
+}
+.featuresPage .appCard:hover img {
+  transform: none;
+  filter: none;
+}
+.featuresPage .appCard:hover .title {
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+.featuresPage .appCard img {
+  transform: scale(1.1);
+  filter: blur(2px);
+}
+.featuresPage .appCard .title {
+  position: absolute;
+  display: flex;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 30px;
+  background-color: #000;
+  color: #FFF;
+  font-size: 16px;
+  font-weight: 300;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s cubic-bezier(0, 1, 0, 1);
 }

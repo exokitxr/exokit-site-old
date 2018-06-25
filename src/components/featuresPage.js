@@ -1,10 +1,9 @@
 import React, { Component } from 'react';
 import '../css/featuresPage.css';
-import '../css/appGrid.css'
 
 import portalImage from '../images/portals.png'
 import mushroomImage from '../images/mushrooms.png'
-import minecraftAvatarImage from '../images/minecraftAvatar.png'
+
 
 class FeaturesPage extends Component {
   render() {

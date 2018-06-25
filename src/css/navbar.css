@@ -1,10 +1,10 @@
-.row{
+.navbar .row{
     width: 100%;
 }
-.col{
+.navbar .col{
     text-align: center;
 }
-.nav-link{
+.navbar .nav-link{
     display: flex;
     height: 60px;
     // font-size: 13px;
@@ -12,14 +12,14 @@
     align-items: center;
 
 }
-.nav-link:hover{
+.navbar .nav-link:hover{
     border-bottom-color: #654373;
 }
-a{
+.navbar a{
     text-decoration: none;
     color: #000000;
 }
-a:hover{
+.navbar a:hover{
     text-decoration: none;
     color: #02BC9F;
 }
@@ -35,10 +35,10 @@ a:hover{
     height: 50px;
     margin-right: 10px;
 }
-.brandName{
+.navbar .brandName{
     line-height: 50px;
 }
-.navbar-collapse{
+.navbar .navbar-collapse{
     background-color: rgb(255, 255, 255);
 }
 

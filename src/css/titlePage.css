@@ -45,46 +45,50 @@
 body{
     color: black;
 }
-.exokitLogo{
+.titlePage .exokitLogo{
     text-align: center;
 }
-i{
+.titlePage i{
+    color: black;
     padding: 10px;
 }
-.titleIconsCol{
+.titlePage i:hover{
+    color: white;
+}
+.titlePage .titleIconsCol{
     padding-left: 50px;
     padding-right: 50px;
 }
-.fa-angle-down{
+.titlePage .fa-angle-down{
     color: rgba(29, 33, 36, 0.45);
 }
-.arrow{
+.titlePage .arrow{
     position: absolute;
     bottom: 0;
     right: 0;
     left: 0;
 }
-.arrowCol{
+.titlePage .arrowCol{
     margin-bottom: 20vh;
 }
 @media only screen and (max-width: 600px) {
-    .display-4 {
+    .titlePage .display-4 {
         font-size: 2.5em;
     }
-    .titlePage{
+    .titlePage .titlePage{
         margin-top: -20%;
     }
-    .arrowCol{
+    .titlePage .arrowCol{
         margin-bottom: 2vh;
     }
 }
-.row{
+.titlePage .row{
     margin: 0;
 }
-#rightButton{
+.titlePage #rightButton{
     margin-left: 10px;
 }
-#leftButton{
+.titlePage #leftButton{
     margin-right: 10px;
 }
 

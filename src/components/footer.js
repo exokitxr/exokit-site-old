@@ -26,7 +26,7 @@ class Footer extends Component {
           <div className='socials col-6'>
             <div className='row p-2'>
               <div className='col-4'>
-                <a href=''>
+                <a href='https://www.facebook.com/webmixedreality/'>
                   <i className="fab fa-facebook fa-2x"/><h5>Facebook</h5>
                 </a>
               </div>

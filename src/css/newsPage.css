@@ -1,5 +1,4 @@
-
-.card .card-body {
+.newsPage .card .card-body {
   margin-top: -50px;
   height: 50px;
   background-color: #000;
@@ -8,20 +7,32 @@
   align-items: center;
 }
 
-.card-footer {
+.newsPage .card-footer {
   border-top: 0;
 }
 
-.heading {
+.newsPage .heading {
   float: left;
   background-color: #000;
   color: #FFF;
 }
-.heading::before {
+.newsPage .heading::before {
   display: block;
   position: absolute;
   left: 0;
   right: 0;
   border-top: 2px solid #000;
   content: '';
+}
+.newsPage .row{
+  width: 100%;
+  margin-right: 0;
+  margin-left: 0;
+}
+.newsPage a{
+  text-decoration: none;
+  color: black;
+}
+.newsPage a:hover{
+  color: #CE2870;
 }
