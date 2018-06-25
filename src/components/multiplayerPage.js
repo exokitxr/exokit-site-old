@@ -11,59 +11,67 @@ class MultiplayerPage extends Component {
   render() {
     return (
       <div className='multiplayerPage'>
-        <div className='row'>
+        <div className='heading row'>
           <h1 className='heading display-4'>Multiplayer servers</h1>
         </div>
-        <div className='container'>
-          <h2 className='subheading'>Click to enter</h2>
-          <ul className="list-group">
-            <li className="list-group-item d-flex">
-              <img className="server-img" src={portalImage} alt="Card"/>
-              <div className='server-name'>
-                <div className='server-name-title'>Magic server one</div>
-                <p>A place to serve magic</p>
-              </div>
-              <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-              <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
-            </li>
-            <li className="list-group-item d-flex">
-              <img className="server-img" src={mushroomImage} alt="Card"/>
-              <div className='server-name'>
-                <div className='server-name-title'>Magic server two</div>
-                <p>A place to serve magic</p>
-              </div>
-              <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-              <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
-            </li>
-            <li className="list-group-item d-flex">
-              <img className="server-img" src={minecraftAvatarImage} alt="Card"/>
-              <div className='server-name'>
-                <div className='server-name-title'>Fail whale zone</div>
-                <p>A place to serve magic</p>
-              </div>
-              <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-              <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
-            </li>
-            <li className="list-group-item d-flex">
-              <img className="server-img" src={shapeBuilderImage} alt="Card"/>
-              <div className='server-name'>
-                <div className='server-name-title'>Ice cream cone</div>
-                <p>A place to serve magic</p>
-              </div>
-              <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-              <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
-            </li>
-            <li className="list-group-item d-flex">
-              <img className="server-img" src={zeoForestImage} alt="Card"/>
-              <div className='server-name'>
-                <div className='server-name-title'>Why my alone</div>
-                <p>A place to serve magic</p>
-              </div>
-              <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-              <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
-            </li>
-          </ul>
+        <div className='row'>
+          <div className='col-6'>
+            <div className='container'>
+              <h2 className='subheading'>Click to enter</h2>
+              <ul className="list-group">
+                <li className="list-group-item d-flex">
+                  <img className="server-img" src={portalImage} alt="Card"/>
+                  <div className='server-name'>
+                    <div className='server-name-title'>Magic server one</div>
+                    <p>A place to serve magic</p>
+                  </div>
+                  <div className='server-stat'><i className="fas fa-user"/>2/8</div>
+                  <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                </li>
+                <li className="list-group-item d-flex">
+                  <img className="server-img" src={mushroomImage} alt="Card"/>
+                  <div className='server-name'>
+                    <div className='server-name-title'>Magic server two</div>
+                    <p>A place to serve magic</p>
+                  </div>
+                  <div className='server-stat'><i className="fas fa-user"/>2/8</div>
+                  <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                </li>
+                <li className="list-group-item d-flex">
+                  <img className="server-img" src={minecraftAvatarImage} alt="Card"/>
+                  <div className='server-name'>
+                    <div className='server-name-title'>Fail whale zone</div>
+                    <p>A place to serve magic</p>
+                  </div>
+                  <div className='server-stat'><i className="fas fa-user"/>2/8</div>
+                  <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                </li>
+                <li className="list-group-item d-flex">
+                  <img className="server-img" src={shapeBuilderImage} alt="Card"/>
+                  <div className='server-name'>
+                    <div className='server-name-title'>Ice cream cone</div>
+                    <p>A place to serve magic</p>
+                  </div>
+                  <div className='server-stat'><i className="fas fa-user"/>2/8</div>
+                  <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                </li>
+                <li className="list-group-item d-flex">
+                  <img className="server-img" src={zeoForestImage} alt="Card"/>
+                  <div className='server-name'>
+                    <div className='server-name-title'>Why my alone</div>
+                    <p>A place to serve magic</p>
+                  </div>
+                  <div className='server-stat'><i className="fas fa-user"/>2/8</div>
+                  <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div className='col-6'>
+            hello
+          </div>
         </div>
+
       </div>
     );
   }

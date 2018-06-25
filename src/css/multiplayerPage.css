@@ -11,7 +11,13 @@
   color: #FFF;
   cursor: pointer;
 }
-
+.multiplayerPage .heading {
+  float: left;
+  background-color: #000;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+}
 .multiplayerPage .list-group-item:hover {
   background-color: #7E57C2;
 }
@@ -46,7 +52,7 @@
 }
 
 .multiplayerPage .subheading {
-  margin: 20px 0;
+  margin: 20px;
   font-weight: 400;
 }
 
