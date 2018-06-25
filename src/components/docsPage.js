@@ -9,9 +9,13 @@ class DocsPage extends Component {
     return (
       <div className="docsPage">
 
-        <div className='titleRow row pt-4'>
-          <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-4'>
-            <h1 className="display-4">Exokit</h1>
+        <div className='headingRow row'>
+          <h1 className='heading display-4'>Developers</h1>
+        </div>
+
+        <div className='titleRow row pt-1'>
+          <div className='col-lg-12 col-md-12 col-sm-12 col-xs-12 mt-1'>
+            <h1 className="display-3">Exokit</h1>
             <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
           </div>
         </div>
