@@ -1,0 +1,11 @@
+.docsPage{
+    background: #C9FFBF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to top, white, rgba(2, 188, 159, 0.2));  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to top, white, rgba(2, 188, 159, 0.2)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    height: 100%;
+    width: auto;
+}
+.docsPage img{
+    height: 100px;
+    width: auto;
+}

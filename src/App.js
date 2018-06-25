@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import {Jumbotron} from 'react-bootstrap';
 import './css/App.css';
 import TopNavbar from './components/navbar';
 import TitlePage from "./components/titlePage";
@@ -8,6 +7,7 @@ import FeaturesPageNav from "./components/featuresPageNav";
 import MultiplayerPage from "./components/multiplayerPage";
 import NewsPage from "./components/newsPage";
 import Footer from "./components/footer";
+import DocsPage from "./components/docsPage";
 
 class App extends Component {
   render() {
@@ -21,10 +21,7 @@ class App extends Component {
         <FeaturesPage name='feature-3'/>
         <MultiplayerPage/>
         <NewsPage/>
-        <Jumbotron>
-          <h1 className="display-4">Exokit</h1>
-          <p className='lead'>The fastest and most portable VR/AR toolbox for developers.</p>
-        </Jumbotron>
+        <DocsPage/>
         <Footer/>
       </div>
     );
