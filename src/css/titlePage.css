@@ -1,4 +1,7 @@
 .titlePage{
+    will-change: transform;
+    transform: translateZ(0);
+    backface-visibility: hidden;
     height: 88vh;
     width: 100%;
     position: relative;
@@ -14,6 +17,7 @@
     -o-animation: titlePageGradient 10s ease infinite;
     animation: titlePageGradient 10s ease infinite;
 }
+
 
 @-webkit-keyframes titlePageGradient {
     0%{background-position:4% 0%}
