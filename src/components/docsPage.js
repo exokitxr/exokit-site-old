@@ -21,7 +21,7 @@ class DocsPage extends Component {
         </div>
 
         <div className='row pt-4'>
-          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 p-3'>
+          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0'>
             <img src={nodeJSImage} alt='Built in Javascript'/>
             <hr className='mr-4 ml-4'/>
             <p className='lead'>
@@ -37,7 +37,7 @@ class DocsPage extends Component {
               <button type="button" id='leftButton' className="btn btn-dark btn-lg mb-3">Exokit Github</button>
             </a>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 p-3'>
+          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0'>
             <img src={devicesImage} alt='All Devices Work'/>
             <hr className='mr-4 ml-4'/>
             <p className='lead'>
@@ -53,7 +53,7 @@ class DocsPage extends Component {
               <button type="button" id='leftButton' className="btn btn-dark btn-lg mb-3">Download Exokit</button>
             </a>
           </div>
-          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 p-3'>
+          <div className='col-lg-4 col-md-4 col-sm-12 col-xs-12 p-0'>
             <img src={docsImage} alt='Our Documentation' />
             <hr className='mr-4 ml-4'/>
             <p className='lead'>
