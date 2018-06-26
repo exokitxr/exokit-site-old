@@ -3,7 +3,13 @@ import '../css/featuresPage.css';
 
 import portalImage from '../images/portals.png'
 import mushroomImage from '../images/mushrooms.png'
+import menuImage from '../images/menu.png'
+import lightsaberImage from '../images/lightsaber.png'
 
+import mountainsImage from '../images/mountains.png'
+import lavaImage from '../images/lava.png'
+import snakeImage from '../images/snake.png'
+import startZoneImage from '../images/startZone.png'
 
 class FeaturesPage extends Component {
   render() {
@@ -29,13 +35,13 @@ class FeaturesPage extends Component {
                     <div className='row p-0'>
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
-                          <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                          <img src={menuImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
-                          <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                          <img src={lightsaberImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
@@ -45,13 +51,13 @@ class FeaturesPage extends Component {
                     <div className='row p-0'>
                       <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
-                          <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                          <img src={mountainsImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
-                          <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                          <img src={lavaImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
@@ -59,13 +65,13 @@ class FeaturesPage extends Component {
                     <div className='row p-0'>
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
-                          <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
+                          <img src={snakeImage} alt="Portal Demo" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
-                          <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
+                          <img src={startZoneImage} alt="VR Guy" className="img-fluid"/>
                           <div className='title'>Title</div>
                         </div>
                       </div>
