@@ -47,6 +47,7 @@
   text-align: left;
 }
 
+
 .multiplayerPage .server-name-title {
   
 }
@@ -63,8 +64,4 @@
   display: flex;
   padding: 0 10px;
   font-size: 14px;
-}
-.multiplayerPage .row{
-  margin-right: 0;
-  margin-left: 0;
 }

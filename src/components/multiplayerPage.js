@@ -11,13 +11,17 @@ class MultiplayerPage extends Component {
   render() {
     return (
       <div className='multiplayerPage'>
-        <div className='heading row'>
-          <h1 className='heading display-4'>Multiplayer servers</h1>
-        </div>
+
         <div className='row'>
-          <div className='col-6'>
-            <div className='container'>
-              <h2 className='subheading'>Click to enter</h2>
+          <div className='col-12'>
+            <h1 className='heading display-4'>Multiplayer servers</h1>
+          </div>
+        </div>
+
+        <div className='row servers p-3'>
+
+          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12'>
+              <h3 className='subheading'>Click to enter</h3>
               <ul className="list-group">
                 <li className="list-group-item d-flex">
                   <img className="server-img" src={portalImage} alt="Card"/>
@@ -65,11 +69,20 @@ class MultiplayerPage extends Component {
                   <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
                 </li>
               </ul>
-            </div>
           </div>
-          <div className='col-6'>
-            hello
+          <div className='col-lg-6 col-md-6 col-sm-12 col-xs-12 pt-5'>
+            <p className='lead pt-5 pb-3'>
+              Lorem ipsum dolor sit amet, doctus accumsan inimicus id pri. Ei salutatus intellegebat duo, no dolorum appellantur voluptatibus quo. Corpora menandri suscipiantur quo ea. Laudem abhorreant at his, no diam primis sit, has an cibo aliquip. No nec aperiam vituperata.
+            </p>
+              <p className='lead pt-3 pb-3'>
+                Impetus volumus te sea, eu eum mutat periculis consequat, has an erat meis. Ponderum vivendum invenire ei mei, nec dicam delicata delicatissimi ne. At wisi aliquid duo, ut partiendo hendrerit elaboraret quo.
+              </p>
+            <p className='lead pt-3'>
+              Impetus volumus te sea, eu eum mutat periculis consequat, has an erat meis. Ponderum vivendum invenire ei mei, nec dicam delicata delicatissimi ne. At wisi aliquid duo, ut partiendo hendrerit elaboraret quo.
+            </p>
+
           </div>
+
         </div>
 
       </div>
