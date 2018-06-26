@@ -18,7 +18,7 @@ class NewsPage extends Component {
         {rows.map((row, i) =>
           <div className='row' key={i}>
             {row.map((newsItem, i) =>
-              <a className='col-lg-3 col-md-6 col-sm-12 col-xs-12' href={newsItem.url} key={i}>
+              <a className='col-lg-3 col-md-6 col-sm-6 col-xs-12' href={newsItem.url} key={i}>
                 <div className="card">
                   <img className="card-img-top" src={newsItem.img} alt="Card"/>
                   <div className="card-body">{newsItem.title}</div>

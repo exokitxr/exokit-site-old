@@ -46,10 +46,14 @@
   margin-right: auto;
   text-align: left;
 }
+.multiplayerPage .headingCol{
+  padding-left: 0;
+}
 
 
-.multiplayerPage .server-name-title {
-  
+.multiplayerPage .row{
+  margin-right: 0;
+  margin-left: 0;
 }
 
 .multiplayerPage .subheading {
