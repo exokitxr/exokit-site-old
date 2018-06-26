@@ -2,7 +2,7 @@
     will-change: transform;
     transform: translateZ(0);
     backface-visibility: hidden;
-    height: 88vh;
+    height: 92vh;
     width: 100%;
     position: relative;
     overflow: hidden;
@@ -83,7 +83,7 @@ body{
         margin-top: -20%;
     }
     .titlePage .arrowCol{
-        margin-bottom: 2vh;
+        margin-bottom: 8vh;
     }
 }
 .titlePage .row{
@@ -91,8 +91,9 @@ body{
 }
 .titlePage #rightButton{
     margin-left: 10px;
+    width: 130px;
 }
-.titlePage #leftButton{
-    margin-right: 10px;
+.titlePage #leftButton {
+  margin-right: 10px;
+  width: 130px;
 }
-

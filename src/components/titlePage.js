@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import '../css/titlePage.css';
+import '../css/Hover-master/css/hover-min.css';
 
 class TitlePage extends Component {
     render() {
@@ -15,14 +16,14 @@ class TitlePage extends Component {
                     <br/>
 
                     <div className='row buttonRow'>
-                        <div className='buttonCol col-12'>
-                            <a href='https://threejs.org/'>
-                                <button type="button" id='leftButton' className="btn btn-primary btn-lg">Demos</button>
-                            </a>
-                            <a href='https://github.com/webmixedreality/exokit'>
-                                <button id='rightButton' type="button" className="btn btn-dark btn-lg">Github</button>
-                            </a>
-                        </div>
+                      <div className='buttonCol col-12'>
+                        <a href='https://get.webmr.io'>
+                          <button type="button" id='leftButton' className="btn btn-primary btn-lg">Download</button>
+                        </a>
+                        <a href=' . '>
+                          <button id='rightButton' type="button" className="btn btn-dark btn-lg">Demos</button>
+                        </a>
+                      </div>
                     </div>
 
                     <br/>
@@ -30,29 +31,29 @@ class TitlePage extends Component {
                     <div className='iconsRow row'>
                         <div className='titleIconsCol col-12'>
                             <a href='https://github.com/webmixedreality/exokit'>
-                                <i className="fab fa-github fa-3x"/>
+                                <i className="fab fa-github fa-3x hvr-bob"/>
                             </a>
                             <a href='https://twitter.com/webmixedreality'>
-                                <i className="fab fa-twitter fa-3x"/>
+                                <i className="fab fa-twitter fa-3x hvr-bob"/>
                             </a>
                             <a href='https://www.facebook.com/webmixedreality/'>
-                                <i className="fab fa-facebook fa-3x"/>
+                                <i className="fab fa-facebook fa-3x hvr-bob"/>
                             </a>
                             <a href='https://www.instagram.com/exokitbrowser/?hl=en'>
-                                <i className="fab fa-instagram fa-3x"/>
+                                <i className="fab fa-instagram fa-3x hvr-bob"/>
                             </a>
                             <a href='https://www.twitch.tv/avaer/'>
-                                <i className="fab fa-twitch fa-3x"/>
+                                <i className="fab fa-twitch fa-3x hvr-bob"/>
                             </a>
                             <a href='https://www.youtube.com/channel/UCbeboI7dMETmnUro91AxJZA'>
-                                <i className="fab fa-youtube fa-3x"/>
+                                <i className="fab fa-youtube fa-3x hvr-bob"/>
                             </a>
                         </div>
                     </div>
 
                   <div className='arrow row'>
                     <div className='arrowCol col-12'>
-                      <i className="fas fa-angle-down fa-3x"/>
+                      <i className="fas fa-angle-down fa-3x mb-4"/>
                     </div>
                   </div>
 
