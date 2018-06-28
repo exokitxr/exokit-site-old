@@ -27,3 +27,6 @@
     font-size: 3rem;
   }
 }
+.docsPage .btnContainer :hover{
+  background-color: #0054a7;
+}

@@ -1,14 +1,17 @@
 .newsPage .card .card-body {
-
   height: 50px;
   background-color: #000;
   color: #FFF;
   align-items: center;
   text-overflow: ellipsis;
 }
+.newsPage .card .card-img-top{
+  max-height: 400px;
+}
 
 .newsPage .card-footer {
   border-top: 0;
+  border-bottom: solid black 2px;
 }
 
 .newsPage .heading {
@@ -23,7 +26,7 @@
   position: absolute;
   left: 0;
   right: 0;
-  border-top: 2px solid #000;
+  border-top: 2px solid #654373;
   content: '';
 }
 .newsPage .row{
@@ -36,5 +39,5 @@
   color: black;
 }
 .newsPage a:hover{
-  color: #CE2870;
+ color: #191919;
 }
