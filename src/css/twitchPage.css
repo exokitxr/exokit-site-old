@@ -1,0 +1,25 @@
+.twitchStream{
+  position: relative;
+  color: black;
+  height: 50vh;
+}
+.twitchStream iframe{
+  margin-top: 20px;
+  height: 48vh;
+  width: 100vw;
+  max-width: 750px;
+}
+.twitchPage .heading{
+  float: left;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: #000;
+  color: #FFF;
+
+}
+.twitchPage{
+  border-top: solid black 2px;
+}
+.twitchPage .heading .row{
+  margin: 0;
+}

@@ -8,6 +8,7 @@ import MultiplayerPage from "./components/multiplayerPage";
 import NewsPage from "./components/newsPage";
 import Footer from "./components/footer";
 import DocsPage from "./components/docsPage";
+import TwitchPage from "./components/twitchPage";
 
 class App extends Component {
   render() {
@@ -21,6 +22,7 @@ class App extends Component {
         <FeaturesPage name='feature-3'/>
         <MultiplayerPage/>
         <NewsPage/>
+        <TwitchPage channel="avaer"/>
         <DocsPage/>
         <Footer/>
       </div>

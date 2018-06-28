@@ -1,6 +1,4 @@
 import React, { Component } from 'react';
-import devicesImage from '../images/allDevices.png';
-import docsImage from '../images/books.png';
 import '../css/docsPage.css';
 
 class DocsPage extends Component {
