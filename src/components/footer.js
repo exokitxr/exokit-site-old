@@ -8,9 +8,19 @@ class Footer extends Component {
 
         <div className='row pt-5 pb-5 pl-3'>
           <div className='col-6'>
-            <a href=''><h3>Contact</h3></a>
-            <a href='https://get.webmr.io'><h3>Download</h3></a>
-            <a href='https://medium.com/webmr'><h3>Blog</h3></a>
+
+            <a href=''>
+              <h3>Contact</h3>
+            </a>
+
+            <a href='https://get.webmr.io'>
+              <h3>Download</h3>
+            </a>
+
+            <a href='https://medium.com/webmr'>
+              <h3>Blog</h3>
+            </a>
+
           </div>
             <div className='col-6'>
               <form action="https://zeo.us15.list-manage.com/subscribe/post?u=36aa5e8f4bdde311ec69edc63&amp;id=ea3c05ce33" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" className="validate" target="_blank">
@@ -43,7 +53,7 @@ class Footer extends Component {
             </div>
           </div>
           <div className='col-6 mt-5'>
-            <p className='copyright'>Exokit &copy; 2018</p>
+            <p className='copyright'>Exokit<i className="fal fa-copyright"/>2018</p>
           </div>
         </div>
 

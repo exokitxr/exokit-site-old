@@ -19,11 +19,11 @@
 .docsPage .row{
     margin: 0;
 }
-.docsPage .title{
-  color: #ad2261;
-}
 @media only screen and (max-width: 600px) {
   .docsPage .title{
     padding-top: 60px;
+  }
+  .docsPage .heading{
+    font-size: 3rem;
   }
 }

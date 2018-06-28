@@ -13,7 +13,7 @@ class NewsPage extends Component {
 
     return (
       <div className='newsPage'>
-        <h1 className='heading display-4'>News</h1>
+        <h1 className='heading display-4'><i className="fal fa-newspaper p-2"/> News</h1>
 
         {rows.map((row, i) =>
           <div className='row' key={i}>

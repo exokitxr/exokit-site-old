@@ -1,7 +1,6 @@
 .multiplayerPage .list-group {
   width: 100%;
 }
-
 .multiplayerPage .list-group-item {
   margin-bottom: 2px;
   padding: 10px 20px;
@@ -11,28 +10,8 @@
   color: #FFF;
   cursor: pointer;
 }
-.multiplayerPage .heading {
-  float: left;
-  background-color: #000;
-  color: #FFF;
-  padding-left: 10px;
-  padding-right: 10px;
-}
 .multiplayerPage .list-group-item:hover {
   background-color: #7E57C2;
-}
-.multiplayerPage .heading{
-  float: left;
-  background-color: #000;
-  color: #FFF;
-}
-.multiplayerPage .heading::before{
-  display: block;
-  position: absolute;
-  left: 0;
-  right: 0;
-  border-top: 2px solid #000;
-  content: '';
 }
 .multiplayerPage .server-img {
   width: 80px;
@@ -41,31 +20,42 @@
   margin-left: -20px;
   margin-right: 10px;
 }
-
 .multiplayerPage .server-name {
   margin-right: auto;
   text-align: left;
 }
-.multiplayerPage .headingCol{
-  padding-left: 0;
-}
-
-
 .multiplayerPage .row{
   margin-right: 0;
   margin-left: 0;
 }
-
 .multiplayerPage .subheading {
   margin: 20px;
   font-weight: 400;
 }
-
 .multiplayerPage .server-stat {
 }
-
-.multiplayerPage i {
+.multiplayerPage .mpIcon {
   display: flex;
   padding: 0 10px;
   font-size: 14px;
+}
+.multiplayerPage .heading {
+  float: left;
+  background-color: #000;
+  color: #FFF;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.multiplayerPage .heading::before {
+  display: block;
+  position: absolute;
+  left: 0;
+  right: 0;
+  border-top: 2px solid #000;
+  content: '';
+}
+@media only screen and (max-width: 600px) {
+  .multiplayerPage .heading{
+    font-size: 3.2rem;
+  }
 }

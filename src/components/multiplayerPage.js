@@ -13,8 +13,8 @@ class MultiplayerPage extends Component {
       <div className='multiplayerPage'>
 
         <div className='row'>
-          <div className='col-12 headingCol'>
-            <h1 className='heading display-4'>Multiplayer servers</h1>
+          <div className='col p-0 m-0'>
+            <h1 className='heading display-4'><i className="fal fa-users p-2"/> Multiplayer</h1>
           </div>
         </div>
 
@@ -40,8 +40,8 @@ class MultiplayerPage extends Component {
                   <div className='server-name-title'>Magic server one</div>
                   <p>A place to serve magic</p>
                 </div>
-                <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-                <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                <div className='server-stat'><i className="mpIcon fas fa-user"/>2/8</div>
+                <div className='server-stat'><i className="mpIcon fas fa-toggle-on"/>3</div>
               </li>
               <li className="list-group-item d-flex">
                 <img className="server-img" src={mushroomImage} alt="Card"/>
@@ -49,8 +49,8 @@ class MultiplayerPage extends Component {
                   <div className='server-name-title'>Magic server two</div>
                   <p>A place to serve magic</p>
                 </div>
-                <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-                <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                <div className='server-stat'><i className="mpIcon fas fa-user"/>2/8</div>
+                <div className='server-stat'><i className="mpIcon fas fa-toggle-on"/>3</div>
               </li>
               <li className="list-group-item d-flex">
                 <img className="server-img" src={minecraftAvatarImage} alt="Card"/>
@@ -58,8 +58,8 @@ class MultiplayerPage extends Component {
                   <div className='server-name-title'>Fail whale zone</div>
                   <p>A place to serve magic</p>
                 </div>
-                <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-                <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                <div className='server-stat'><i className="mpIcon fas fa-user"/>2/8</div>
+                <div className='server-stat'><i className="mpIcon fas fa-toggle-on"/>3</div>
               </li>
               <li className="list-group-item d-flex">
                 <img className="server-img" src={shapeBuilderImage} alt="Card"/>
@@ -67,8 +67,8 @@ class MultiplayerPage extends Component {
                   <div className='server-name-title'>Ice cream cone</div>
                   <p>A place to serve magic</p>
                 </div>
-                <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-                <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                <div className='server-stat'><i className="mpIcon fas fa-user"/>2/8</div>
+                <div className='server-stat'><i className="mpIcon fas fa-toggle-on"/>3</div>
               </li>
               <li className="list-group-item d-flex">
                 <img className="server-img" src={zeoForestImage} alt="Card"/>
@@ -76,8 +76,8 @@ class MultiplayerPage extends Component {
                   <div className='server-name-title'>Why my alone</div>
                   <p>A place to serve magic</p>
                 </div>
-                <div className='server-stat'><i className="fas fa-user"/>2/8</div>
-                <div className='server-stat'><i className="fas fa-toggle-on"/>3</div>
+                <div className='server-stat'><i className="mpIcon fas fa-user"/>2/8</div>
+                <div className='server-stat'><i className="mpIcon fas fa-toggle-on"/>3</div>
               </li>
             </ul>
           </div>

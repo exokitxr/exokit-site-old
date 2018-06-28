@@ -1,16 +1,16 @@
 import React, { Component } from 'react';
-import nodeJSImage from '../images/nodeJS.png';
 import devicesImage from '../images/allDevices.png';
 import docsImage from '../images/books.png';
 import '../css/docsPage.css';
 
 class DocsPage extends Component {
+
   render() {
     return (
       <div className="docsPage">
 
         <div className='headingRow row'>
-          <h1 className='heading display-4'>Developers</h1>
+          <h1 className='heading display-4'><i className="fal fa-code p-2"/> Developers</h1>
         </div>
 
         <div className='titleRow row pt-3'>
@@ -21,8 +21,8 @@ class DocsPage extends Component {
         </div>
 
         <div className='row pt-5 pb-3'>
-          <div className='infoSection col-lg-4 col-md-4 col-sm-12 col-xs-12 pr-0 pl-0 pb-5'>
-            <img src={nodeJSImage} alt='Built in Javascript' className='pt-4'/>
+          <div className='infoSection col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-5 pt-5'>
+            <i className="fab fa-node-js fa-5x"/>
             <hr className='mr-5 ml-5'/>
             <p className='lead'>
               Calling all web-devs!
@@ -33,13 +33,12 @@ class DocsPage extends Component {
             <p className='lead'>
               Enjoy the eco-system of the web.
             </p>
-            <hr className='mr-5 ml-5'/>
             <a href='https://github.com/webmixedreality/exokit'>
-              <button type="button" id='leftButton' className="btn btn-primary btn-lg mb-3">Exokit Github</button>
+              <button type="button" id='leftButton' className="btn btn-primary btn-lg mb-3 mt-2">Exokit Github</button>
             </a>
           </div>
-          <div className='infoSection col-lg-4 col-md-4 col-sm-12 col-xs-12 pr-0 pl-0 pb-5'>
-            <img src={devicesImage} alt='All Devices Work' className='pt-4'/>
+          <div className='infoSection col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-5 pt-5'>
+            <i className="fal fa-project-diagram fa-5x"/>
             <hr className='mr-5 ml-5'/>
             <p className='lead'>
               Amazing portability due to Javascript.
@@ -50,13 +49,12 @@ class DocsPage extends Component {
             <p className='lead'>
               Download for your device today!
             </p>
-            <hr className='mr-5 ml-5'/>
             <a href='https://get.webmr.io'>
-              <button type="button" id='leftButton' className="btn btn-primary btn-lg mb-3">Download Exokit</button>
+              <button type="button" id='leftButton' className="btn btn-primary btn-lg mb-3 mt-2">Download Exokit</button>
             </a>
           </div>
-          <div className='infoSection col-lg-4 col-md-4 col-sm-12 col-xs-12 pr-0 pl-0 pb-5'>
-            <img src={docsImage} alt='Our Documentation' className='pt-4'/>
+          <div className='infoSection col-lg-4 col-md-12 col-sm-12 col-xs-12 pb-5 pt-5'>
+            <i className="fal fa-code fa-5x"/>
             <hr className='mr-5 ml-5'/>
             <p className='lead'>
               Tech for both Junior and Senior Developers.
@@ -67,9 +65,8 @@ class DocsPage extends Component {
             <p className='lead'>
               Get started today! Read our documentation.
             </p>
-            <hr className='mr-5 ml-5'/>
             <a href='https://docs.webmr.io/#/'>
-              <button type="button" id='leftButton' className="btn btn-primary btn-lg">Exokit Docs</button>
+              <button type="button" id='leftButton' className="btn btn-primary btn-lg mt-2">Exokit Docs</button>
             </a>
           </div>
         </div>

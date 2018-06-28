@@ -6,7 +6,7 @@ class FeaturesPageNav extends Component {
     return (
       <div className='featuresPageNav'>
         <div className='heading-wrap'>
-          <h1 className='heading display-4'>Features</h1>
+          <h1 className='heading display-4'><i className="fal fa-cogs p-2"/> Features</h1>
         </div>
         <div className='main'>
           <div className='links'>
