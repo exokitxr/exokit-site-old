@@ -32,7 +32,7 @@ class DocsPage extends Component {
             <p className='lead'>
               Enjoy the eco-system of the web.
             </p>
-            <a href='https://github.com/webmixedreality/exokit' className='btnContainer hvr-bounce-in'>
+            <a href='https://github.com/webmixedreality/exokit' className='btnContainer'>
               <button type="button" id='leftButton' className="btn btn-primary btn-lg mb-3 mt-2 hvr-icon">Exokit Github</button>
             </a>
           </div>
@@ -49,7 +49,7 @@ class DocsPage extends Component {
             <p className='lead'>
               Download for your device today!
             </p>
-            <a href='https://get.webmr.io' className='btnContainer hvr-bounce-in'>
+            <a href='https://get.webmr.io' className='btnContainer'>
               <button type="button" id='leftButton' className="btn btn-primary btn-lg mb-3 mt-2 hvr-icon">Download Exokit</button>
             </a>
           </div>
@@ -66,7 +66,7 @@ class DocsPage extends Component {
             <p className='lead'>
               Get started today! Read our documentation.
             </p>
-            <a href='https://docs.webmr.io/#/' className='btnContainer hvr-bounce-in'>
+            <a href='https://docs.webmr.io/#/' className='btnContainer'>
               <button type="button" id='leftButton' className="btn btn-primary btn-lg mt-2 hvr-icon">Exokit Docs</button>
             </a>
           </div>

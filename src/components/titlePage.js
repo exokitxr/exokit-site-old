@@ -17,10 +17,10 @@ class TitlePage extends Component {
 
                     <div className='row buttonRow'>
                       <div className='buttonCol col-12'>
-                        <a href='https://get.webmr.io' className='btnContainer hvr-bounce-in'>
+                        <a href='https://get.webmr.io' className='btnContainer'>
                           <button type="button" id='leftButton' className="btn btn-primary btn-lg">Download</button>
                         </a>
-                        <a href=' . ' className='btnContainer hvr-bounce-in'>
+                        <a href=' . ' className='btnContainer'>
                           <button id='rightButton' type="button" className="btn btn-dark btn-lg">Demos</button>
                         </a>
                       </div>
