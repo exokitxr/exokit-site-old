@@ -22,13 +22,13 @@ class FeaturesPage extends Component {
                       <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={portalImage} alt="Portal Demo" className="img-fluid"/>
-                          <div className='title'>Reality Tabs</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={mushroomImage} alt="VR Guy" className="img-fluid"/>
-                          <div className='title'>Cross-Platform</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                     </div>
@@ -36,13 +36,13 @@ class FeaturesPage extends Component {
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={menuImage} alt="Portal Demo" className="img-fluid"/>
-                          <div className='title'>Speed</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={lightsaberImage} alt="VR Guy" className="img-fluid"/>
-                          <div className='title'>Built in Javascript</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                     </div>
@@ -52,13 +52,13 @@ class FeaturesPage extends Component {
                       <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={mountainsImage} alt="Portal Demo" className="img-fluid"/>
-                          <div className='title'>Payment APIs</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-0'>
                         <div className='appCard'>
                           <img src={lavaImage} alt="VR Guy" className="img-fluid"/>
-                          <div className='title'>Game Development </div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                     </div>
@@ -66,13 +66,13 @@ class FeaturesPage extends Component {
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={snakeImage} alt="Portal Demo" className="img-fluid"/>
-                          <div className='title'>App Development</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                       <div className='col-lg-6 col-md-6 col-sm-6 col-xs-6 p-0'>
                         <div className='appCard'>
                           <img src={startZoneImage} alt="VR Guy" className="img-fluid"/>
-                          <div className='title'>A Social Experience</div>
+                          <div className='title'>Title</div>
                         </div>
                       </div>
                     </div>

@@ -17,7 +17,7 @@ class App extends Component {
         <TopNavbar/>
         <TitlePage/>
         <FeaturesPageNav/>
-        <FeaturesPage name='feature-1' footerHeading='Reality Tabs' footerBody='Reality tabs are the new and powerful way to explore VR/AR worlds through the power of the Javascript. Drop in and drop out of seamless worlds made by anyone and everyone. The possibilities are endless with the amount of ideas and experiences Exokit can deliver.'/>
+        <FeaturesPage name='feature-1' footerHeading='Reality Tabs' footerBody='Where does it come from? Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old.'/>
         <MultiplayerPage/>
         <NewsPage/>
         <TwitchPage channel="avaer"/>

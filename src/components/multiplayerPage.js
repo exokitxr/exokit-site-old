@@ -23,16 +23,13 @@ class MultiplayerPage extends Component {
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-5 m-0'>
             <h3>Feel the immersion of true VR/AR multi-player.</h3>
             <p className='lead p-3'>
-              Exokit offers built-in support for seamless VR/AR multi-player experiences.
-              Our browser offers a unique and simple way to connect worlds and people together through the power of VR/AR and the web.
-              Jump into a reality tab with your friends and have a blast!
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable
             </p>
             <p className='lead p-3'>
-              Built with Javascript and powered by the web, Exokit aims to challenge the status quo of web browsers.
-              Exokit was designed specifically for the purpose of VR/AR. Exokit gets much higher performance than say Chrome or Firefox in a VR/AR application.
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable
             </p>
             <p className='lead p-3'>
-              Exokit provides the platform for developers to construct their own multi-player systems using our implementations and API as a guide along the way.
+              There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable
             </p>
           </div>
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-3'>
