@@ -17,9 +17,7 @@ class App extends Component {
         <TopNavbar/>
         <TitlePage/>
         <FeaturesPageNav/>
-        <FeaturesPage name='feature-1'/>
-        <FeaturesPage name='feature-2'/>
-        <FeaturesPage name='feature-3'/>
+        <FeaturesPage name='feature-1' footerHeading='Reality Tabs' footerBody='Reality tabs are the new and powerful way to explore VR/AR worlds through the power of the Javascript. Drop in and drop out of seamless worlds made by anyone and everyone. The possibilities are endless with the amount of ideas and experiences Exokit can deliver.'/>
         <MultiplayerPage/>
         <NewsPage/>
         <TwitchPage channel="avaer"/>

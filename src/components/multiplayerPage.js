@@ -18,21 +18,25 @@ class MultiplayerPage extends Component {
           </div>
         </div>
 
-        <div className='row servers p-2'>
+        <div className='row servers p-1'>
 
-          <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-4 m-0'>
-            <p className='lead pt-5 pb-3'>
-              Lorem ipsum dolor sit amet, doctus accumsan inimicus id pri. Ei salutatus intellegebat duo, no dolorum appellantur voluptatibus quo. Corpora menandri suscipiantur quo ea. Laudem abhorreant at his, no diam primis sit, has an cibo aliquip. No nec aperiam vituperata.
+          <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-5 m-0'>
+            <h3>Feel the immersion of true VR/AR multi-player.</h3>
+            <p className='lead p-3'>
+              Exokit offers built-in support for seamless VR/AR multi-player experiences.
+              Our browser offers a unique and simple way to connect worlds and people together through the power of VR/AR and the web.
+              Jump into a reality tab with your friends and have a blast!
             </p>
-            <p className='lead pt-3 pb-3'>
-              Impetus volumus te sea, eu eum mutat periculis consequat, has an erat meis. Ponderum vivendum invenire ei mei, nec dicam delicata delicatissimi ne. At wisi aliquid duo, ut partiendo hendrerit elaboraret quo.
+            <p className='lead p-3'>
+              Built with Javascript and powered by the web, Exokit aims to challenge the status quo of web browsers.
+              Exokit was designed specifically for the purpose of VR/AR. Exokit gets much higher performance than say Chrome or Firefox in a VR/AR application.
             </p>
-            <p className='lead pt-3'>
-              Impetus volumus te sea, eu eum mutat periculis consequat, has an erat meis. Ponderum vivendum invenire ei mei, nec dicam delicata delicatissimi ne. At wisi aliquid duo, ut partiendo hendrerit elaboraret quo.
+            <p className='lead p-3'>
+              Exokit provides the platform for developers to construct their own multi-player systems using our implementations and API as a guide along the way.
             </p>
           </div>
-          <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-2'>
-            <h3 className='subheading'>Click to enter</h3>
+          <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 p-3'>
+            <h3 className='subheading'>Click to Enter (In Development)</h3>
             <ul className="list-group">
               <li className="list-group-item d-flex">
                 <img className="server-img" src={portalImage} alt="Card"/>
