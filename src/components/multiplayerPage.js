@@ -1,4 +1,5 @@
-import React, { Component } from 'react';
+import React, { Component } from 'react'
+
 import '../css/multiplayerPage.css';
 
 import portalImage from '../images/portals.png'
@@ -9,6 +10,7 @@ import zeoForestImage from '../images/zeoForest.png'
 
 class MultiplayerPage extends Component {
   render() {
+    const { playerCount, playerJoinAction, playerLeaveAction } = this.props;
     return (
       <div className='multiplayerPage'>
 
@@ -21,7 +23,11 @@ class MultiplayerPage extends Component {
         <div className='row servers p-1'>
 
           <div className='col-lg-6 col-md-12 col-sm-12 col-xs-12 pt-5 m-0'>
-            <h3>Feel the immersion of true VR/AR multi-player.</h3>
+
+            <h3>Current Players in Exokit: {playerCount}</h3>
+            <button id='rightButton' type="button" className="btn btn-success btn-lg m-2" onClick={playerJoinAction}>Add player</button>
+            <button id='rightButton' type="button" className="btn btn-danger btn-lg m-2" onClick={playerLeaveAction}>Kick player</button>
+
             <p className='lead p-3'>
               There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form, by injected humour, or randomised words which don't look even slightly believable
             </p>
@@ -90,3 +96,4 @@ class MultiplayerPage extends Component {
   }
 }
 export default MultiplayerPage;
+
