@@ -9,7 +9,7 @@ class Footer extends Component {
         <div className='row pt-5 pb-5 pl-3'>
           <div className='col-6'>
 
-            <a href=''>
+            <a href='https://docs.webmr.io/docs/Support.html'>
               <h3>Contact</h3>
             </a>
 
