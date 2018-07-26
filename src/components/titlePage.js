@@ -48,9 +48,6 @@ class TitlePage extends Component {
                             <a href='https://www.youtube.com/channel/UCbeboI7dMETmnUro91AxJZA'>
                                 <i className="fab fa-youtube fa-3x hvr-bob"/>
                             </a>
-                            <a href='https://www.reddit.com/r/exokit/'>
-                                <i className="fab fa-reddit fa-3x hvr-bob"/>
-                            </a>
 
                         </div>
                     </div>
