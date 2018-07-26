@@ -20,7 +20,7 @@ class TitlePage extends Component {
                         <a href='https://get.webmr.io' className='btnContainer'>
                           <button type="button" id='leftButton' className="btn btn-primary btn-lg">Download</button>
                         </a>
-                        <a href=' . ' className='btnContainer'>
+                        <a href='https://docs.webmr.io/docs/StartHere.html' className='btnContainer'>
                           <button id='rightButton' type="button" className="btn btn-dark btn-lg">Demos</button>
                         </a>
                       </div>
@@ -48,6 +48,10 @@ class TitlePage extends Component {
                             <a href='https://www.youtube.com/channel/UCbeboI7dMETmnUro91AxJZA'>
                                 <i className="fab fa-youtube fa-3x hvr-bob"/>
                             </a>
+                            <a href='https://www.reddit.com/r/exokit/'>
+                                <i className="fab fa-reddit fa-3x hvr-bob"/>
+                            </a>
+
                         </div>
                     </div>
 
